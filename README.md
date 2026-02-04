@@ -487,7 +487,7 @@ Over the years, I’ve done quite a bit of freelance content marketing work for 
 
 Examples:
 
-*​ [Hydrolix log storage](#hydrolix-log-storage)
+* [Hydrolix log storage](#hydrolix-log-storage)
 * [Spire satellite data](#spire-satellite-data)
 
 ### Hydrolix log storage
