@@ -486,9 +486,8 @@ You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&
 Over the years, I’ve done quite a bit of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, guides, and the like. The goals were generally a) to gather online traffic/leads, and b) to communicate expertise and trustworthiness in the chosen domain.
 
 Examples:
-
-*​ [Hydrolix content marketing](#hydrolix-log-storage)
-* [Spire satellite data content marketing](#spire-satellite-data)
+*​ [Hydrolix log storage](#hydrolix-log-storage)
+* [Spire satellite data](#spire-satellite-data)
 
 ### Hydrolix log storage
 
