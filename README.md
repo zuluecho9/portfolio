@@ -481,7 +481,7 @@ A note about my time at Amazon: unfortunately, most of my work for the Amazon Ad
 
 You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&from=2023-12-01&to=2023-12-31). Those commits are from my final 2.5 years or so at New Relic, ending in late 2023. 
 
-## Content marketing 
+## Content marketing examples
 
 Over the years, I’ve done quite a bit of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, guides, and the like. The goals were generally a) to gather online traffic/leads, and b) to communicate expertise and trustworthiness in the chosen domain.
 
