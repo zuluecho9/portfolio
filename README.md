@@ -4,6 +4,8 @@
 
 ---
 
+[![Zach Elwood linkedin header image](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)
+
 ## What's this? 
 This is a portfolio for the writing/communication career of me, Zachary Elwood. 
 
