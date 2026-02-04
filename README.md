@@ -51,6 +51,8 @@ For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
 - [Content marketing examples](#content-marketing-examples)
 - [Coding/scripting experience](#coding-and-scripting-experience)
 
+(Other sections coming soon...)
+
 ## Tech writing examples
 
 During my 7.5 years at New Relic, an observability and full‑stack monitoring company with 700+ integrations, I worked on a wide range of highly technical documentation projects. My final role there was Lead Technical Writer (a role above Senior). The projects I worked on spanned multiple technologies, programming languages, types of APIs, and data models.
