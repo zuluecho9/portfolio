@@ -28,13 +28,16 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 ## Featured testimonials
 
 > "Zach is literally the most productive technical writer I've ever worked with. If you're looking for greatness, get in touch with him."
-> **— Austin Schaefer**, Head of Dev Docs at Shopify, Former Director at New Relic ([see original post](https://www.linkedin.com/feed/update/urn:li:activity:7396594695725879296))
+> **— Austin Schaefer**, Head of Dev Docs at Shopify, former Director of Documentation at New Relic ([see original post](https://www.linkedin.com/feed/update/urn:li:activity:7396594695725879296))
 
 > "If you're looking to add a technical writer capable of untangling complex ideas and want someone with an unshakeable work ethic who can get tough jobs done for you, talk to Zach. You'll be glad you did."
 > **- Mark Buchanan**, Sr. Director of Product Language at New Relic
 
 > "In his time working on my team, I was struck by how quickly he ramped up on new problems and technical concepts."
 > **- Avtar Khalsa**, Sr. Software Dev Manager, Amazon Ads APIs
+
+> "Zach is probably the most technically capable and proficient writer I've ever had the pleasure to work with. He's still the #1 contributor to our [docs repo](https://github.com/newrelic/docs-website/graphs/contributors) a year after he left.">
+> **- Shawn Kilburn**, previously a docs manager at New Relic
 
 For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
 
