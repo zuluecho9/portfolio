@@ -52,8 +52,8 @@ Overview of examples:
 
 - [Implementation guide](#example-1-new-relic-implementation-guide) 
 - [Telemetry data concepts](#example-2-understanding-telemetry-data)  
-- [Pricing and billing](#example-3-pricing-billing-and-account-user-model-updates)
-- [API overviews](#example-4-api-overview)
+- [Pricing and billing](#example-3-pricingbilling-and-accountuser-model-updates)
+- [API overviews](#example-4-overview-of-new-relic-apis)
 - [Distributed tracing API](#example-5-distributed-tracing-api)  
 - [Query language](#example-6-querying-data-with-nrql)  
 - [Go language agent APIs](#example-7-go-language-monitoring-agent-apis)  
@@ -307,7 +307,7 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 
 ---
 
-## Example 5: Distributed trace API
+## Example 5: Distributed tracing API
 
 One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
@@ -390,7 +390,7 @@ The following explains how to send a standard (non-[Infinite Tracing](https://do
 
 ---
 
-## Example #6: Querying data
+## Example #6: Querying data with NRQL
 
 One project of mine was to improve the New Relic query language (NRQL) docs. NRQL was a SQL-like query language customers could use to query their observability data via the UI or via an API. When I started, the NRQL docs were hard to get started with: they didn’t do a good job explaining at a high level why you’d want to use NRQL, what the major use cases were, and how to quickly get started with it. I created a doc that would make people feel comfortable getting started and that would hopefully provide some value quickly.
 
