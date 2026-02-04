@@ -36,7 +36,7 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 > "In his time working on my team, I was struck by how quickly he ramped up on new problems and technical concepts."
 > **- Avtar Khalsa**, Sr. Software Dev Manager, Amazon Ads APIs
 
-> "Zach is probably the most technically capable and proficient writer I've ever had the pleasure to work with. He's still the #1 contributor to our [docs repo](https://github.com/newrelic/docs-website/graphs/contributors) a year after he left.">
+> "Zach is probably the most technically capable and proficient writer I've ever had the pleasure to work with. He's still the #1 contributor to our [docs repo](https://github.com/newrelic/docs-website/graphs/contributors) a year after he left."
 > **- Shawn Kilburn**, previously a docs manager at New Relic
 
 For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
