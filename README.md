@@ -56,7 +56,7 @@ Overview of examples:
 - [API overviews](#example-4-api-overview)
 - [Distributed tracing API](#example-5-distributed-tracing-api)  
 - [Query language](#example-6-querying-data-with-nrql)  
-- [Go language agent APIs](#example-7-go-language-agent)  
+- [Go language agent APIs](#example-7-go-language-monitoring-agent-apis)  
 
 ---
 
@@ -172,9 +172,9 @@ In the monitoring industry, "dimensional" metrics refer to metric data that has 
 
 At New Relic, this metric data is attached to our [`Metric`](https://docs.newrelic.com/docs/data-apis/understand-data/metric-data/metric-data-type) data type. This is our primary metric data type and is used by many of our tools, including:
 
-    * Our integrations with third-party telemetry services, like our [OpenTelemetry integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/opentelemetry/opentelemetry-introduction), our [Prometheus integration](https://docs.newrelic.com/docs/infrastructure/prometheus-integrations/get-started/send-prometheus-metric-data-new-relic), and our [DropWizard integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/dropwizard/dropwizard-reporter).
-    * The [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api) (the underlying API used by the above tools).
-    * The [events-to-metrics service](https://docs.newrelic.com/docs/data-ingest-apis/get-data-new-relic/metric-api/introduction-events-metrics-service).
+* Our integrations with third-party telemetry services, like our [OpenTelemetry integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/opentelemetry/opentelemetry-introduction), our [Prometheus integration](https://docs.newrelic.com/docs/infrastructure/prometheus-integrations/get-started/send-prometheus-metric-data-new-relic), and our [DropWizard integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/dropwizard/dropwizard-reporter).
+* The [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api) (the underlying API used by the above tools).
+* The [events-to-metrics service](https://docs.newrelic.com/docs/data-ingest-apis/get-data-new-relic/metric-api/introduction-events-metrics-service).
 
 To query the `Metric` data type, you could use a NRQL query like:
 
@@ -189,7 +189,6 @@ For more details about `Metric` data, see [`Metric` data structure](https://docs
 Some of our other metric data types are exposed as dimensional metrics and are available for querying. For example:
 
 * [APM metric timeslice data](https://docs.newrelic.com/docs/data-apis/understand-data/metric-data/query-apm-metric-timeslice-data-nrql)
-
 * [Some infrastructure data](https://docs.newrelic.com/docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/query-infrastructure-dimensional-metrics-nrql)
 
 ---
@@ -198,7 +197,7 @@ Some of our other metric data types are exposed as dimensional metrics and are a
 
 ---
 
-## Pricing/billing and account/user model updates
+## Example 3: Pricing/billing and account/user model updates
 
 This project was probably my most important accomplishment during my time at New Relic: overhauling the docs to reflect substantial changes to the pricing model and the account/user model. These were core changes to the platform that impacted many aspects of the customer experience; these changes impacted hundreds of docs. They were also touchy and sensitive changes. Customers can be easily frustrated when there is confusion over how their billing works, or how to manage/provision users (which affects cost). 
 
@@ -218,7 +217,7 @@ Here’s a sample from the pricing overview doc (this comes from a [2021 version
 
 ## Sample section 
 
-### How New Relic pricing works 
+### New Relic pricing 
 
 An explanation of how New Relic One pricing works, and how to view and manage billing.
 
@@ -262,8 +261,7 @@ Here are the steps:
 
 #### Billing calculation details
 
-For accounts on New Relic One pricing, some high-level billing information is displayed  
-[in the UI](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/#billing-usage-ui). Here are some more details about how billing works:
+For accounts on New Relic One pricing, some high-level billing information is displayed [in the UI](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/#billing-usage-ui). Here are some more details about how billing works:
 
 ---
 
@@ -296,61 +294,12 @@ Looking for API keys? [See API keys](https://docs.newrelic.com/docs/apis/intro-a
 
 Our data ingest APIs are some of our [many solutions for reporting data](https://newrelic.com/instant-observability). Our APIs can be used directly, but they're also the underlying ingest route for many of our data-reporting tools. If you're just getting started reporting data to New Relic, we recommend starting at [Install New Relic](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/install-configure/install-new-relic).
 
-<table>
-  <thead>
-    <tr>
-      <th style={{ width: "150px" }}>
-        API type
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api)
-      </td>
-
-      <td>
-        Send [dimensional metrics](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#dimensional-metrics) to New Relic from any source (including other telemetry monitoring services).
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        [Event API](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-apis/introduction-event-api)
-      </td>
-
-      <td>
-        Send custom [event data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#events-new-relic) to New Relic without the use of an agent or integration.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        [Log API](https://docs.newrelic.com/docs/enable-new-relic-logs-http-input)
-      </td>
-
-      <td>
-        Send [log data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#log-data) to New Relic.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        [Trace API](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/introduction-new-relic-trace-api)
-      </td>
-
-      <td>
-        Send [distributed tracing data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#trace-data) (`Span` data) to New Relic without the use of an agent or integration.
-      </td>
-    </tr>
-  </tbody>
-</table>
+| API type | Description |
+|--------|-------------|
+| [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api) | Send [dimensional metrics](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#dimensional-metrics) to New Relic from any source (including other telemetry monitoring services). |
+| [Event API](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-apis/introduction-event-api) | Send custom [event data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#events-new-relic) to New Relic without the use of an agent or integration. |
+| [Log API](https://docs.newrelic.com/docs/enable-new-relic-logs-http-input) | Send [log data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#log-data) to New Relic. |
+| [Trace API](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/introduction-new-relic-trace-api) | Send [distributed tracing data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#trace-data) (`Span` data) to New Relic without the use of an agent or integration. |
 
 ---
 
@@ -358,7 +307,7 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 
 ---
 
-## Example 4: Distributed trace API
+## Example 5: Distributed trace API
 
 One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
@@ -368,7 +317,7 @@ One of my earlier large projects at New Relic was being embedded with a product 
 
 If you want to create your own tracing implementation, you can use our [Trace API](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api). This doc explains how to send traces in our general format, also known as `newrelic` format. (To send Zipkin-format data, see [Zipkin](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/report-zipkin-format-traces-trace-api).)
 
-## Get started [#send-data-overview]
+## Get started 
 
 Using our Trace API is as simple as:
 
@@ -382,7 +331,7 @@ To get started using the Trace API, follow one of these paths:
 * Want to use [Infinite Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api#sampling)? Follow the [Set up a trace observer](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/infinite-tracing/set-trace-observer#set-up) instructions. That walks you through creating a trace observer and sending a sample payload to the trace observer endpoint.
 * Don't want Infinite Tracing? See how to send a [sample payload](#new-relic-quick-start) (below).
 
-## Send sample trace payload (non-Infinite Tracing) [#new-relic-quick-start]
+## Send sample trace payload (non-Infinite Tracing) 
 
 The following explains how to send a standard (non-[Infinite Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api#sampling)) payload to the Trace API using our `newrelic` format.
 
@@ -441,8 +390,92 @@ The following explains how to send a standard (non-[Infinite Tracing](https://do
 
 ---
 
-## 
+## Example #6: Querying data
 
+One project of mine was to improve the New Relic query language (NRQL) docs. NRQL was a SQL-like query language customers could use to query their observability data via the UI or via an API. When I started, the NRQL docs were hard to get started with: they didn’t do a good job explaining at a high level why you’d want to use NRQL, what the major use cases were, and how to quickly get started with it. I created a doc that would make people feel comfortable getting started and that would hopefully provide some value quickly.
+
+In the introductory doc, my goal was to explain: a) common use cases, b) where you could do it, c) an overview of the syntax, and d) the types of data you could query. 
+
+Here’s an excerpt from that doc:  
+
+### Sample section
+
+## What is NRQL?
+NRQL is an acronym of New Relic query language. It's a query language similar to ANSI SQL (see the syntax), and you can use it to retrieve detailed New Relic data to get insight into your applications, hosts, and business-important activity. NRQL can help you:
+
+* Create a new chart
+* Answer a specific question for the purpose of troubleshooting or business analysis
+* Set up NRQL-based alerts (our primary and most powerful type of alert)
+* Make API queries of New Relic data (for example, using our NerdGraph API)
+
+You can use NRQL to create simple queries, such as fetching rows of data in a raw tabular form that gives insight on individual events. You can also use NRQL to run powerful calculations on the data before it's presented to you, such as crafting funnels based on how end users interact with your site or application. We use NRQL behind the scenes to generate many of the charts and dashboards in our curated UI experiences:
+
+[IMAGE OF DASHBOARD]
+Where can you use NRQL? 
+You can use NRQL across the platform to access your data. Those places include:
+
+* The query builder. [screenshot of the query builder] You can run a NRQL query in the platform’s query builder. This NRQL query shows a count of distributed tracing spans faceted by their entity names.
+* NRQL-based alerts. [screenshot of NRQL-based alerts UI] You can use NRQL to build NRQL-based alerts, our primary and most powerful alert type. This will help to notify you of issues and help you address them in a timely fashion.
+
+* NerdGraph API. [screenshot of the Nerdgraph API] You can also use NRQL with our NerdGraph API. This gives you more powerful features than querying in the UI (for example, cross-account querying, and asynchronous queries).
+
+---
+
+**READ MORE**: This doc is largely unchanged from when I edited it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language).
+
+---
+
+## Example 7: Go language monitoring agent APIs
+
+New Relic’s core feature is application performance monitoring (APM). This was handled by installable agents available for several coding languages (Go, Ruby, Java, .NET, Python, PHP, Node.js). I worked on all of these docs over the years, with a special focus on Go, .NET, and Python. Work in these areas included documenting installation, configuration, data explanations, common use cases, and code snippets. 
+
+One of my early assignments was writing the Go language agent docs, which was the first language agent they’d added in years (and ended up being their last). Each language agent had their own library of APIs that allowed customers to customize the agent, to get it to work how they wanted it to work. 
+Here’s a sample from one of the Go agent APIs: 
+
+## Sample section
+
+## Guide to using the Go agent API
+
+The [New Relic Go agent](https://docs.newrelic.com/docs/agents/go-agent/get-started/introduction-new-relic-go) monitors your Go language applications and microservices to help you identify and solve performance issues. The Go agent API is one of several available [New Relic APIs](https://docs.newrelic.com/docs/apis/getting-started/introduction-new-relic-apis).
+
+> Because Go applications run from a compiled, native binary file, you need to [manually instrument your code](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-transactions) to monitor transactions for your Go applications by adding New Relic methods to it.
+
+## Monitor transactions 
+
+Before you manually instrument your code to monitor [transactions](https://docs.newrelic.com/docs/apm/transactions/intro-transactions/transactions-new-relic-apm), make sure that you meet the [compatibility and requirements](https://docs.newrelic.com/docs/agents/go-agent/get-started/go-agent-compatibility-requirements) and that you are using the [latest version of the Go agent](https://docs.newrelic.com/docs/release-notes/agent-release-notes/go-release-notes).
+
+| If you want to... | Use this method... |
+|------------------|-------------------|
+| Start timing a transaction | [`StartTransaction()`](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-transactions#go-txn) |
+| Stop timing a transaction | [`txn.End()`](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-transactions#go-txn) |
+| Prevent a transaction from reporting to New Relic | [`Ignore()`](https://godoc.org/github.com/newrelic/go-agent/v3/newrelic#Transaction.Ignore) |
+| Prevent an active transaction from reporting Apdex to New Relic | [`IgnoreApdex()`](https://godoc.org/github.com/newrelic/go-agent/v3/newrelic#Transaction.IgnoreApdex) |
+| Use the standard HTTP library package to monitor transactions | [HTTP request wrapping](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-transactions#http-handler-txns) |
+
+## Time specific methods using segments 
+
+If a transaction is already visible in New Relic, but you do not have enough data about a particular method that was called during that transaction, you can create [segments](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments). For example, if you want to time a method that has complex logic, you can create a segment for each of the methods in the transaction.
+
+To instrument a method within an existing transaction, create segments for the following:
+
+* [Blocks of code](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments#segment-code-block)
+* [Functions](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments#segment-function)
+* [Datastores](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments#go-datastore-segments)
+* [External services](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments#go-external-segments)
+
+If the work is happening in a different goroutine from where the transaction started, you must use the [`NewGoroutine()`](/docs/agents/go-agent/features/tracing-asynchronous-applications) API.
+
+---
+
+**READ MORE**: This doc is largely unchanged from when I wrote it in 2017. [Read the rest of the doc here](https://docs.newrelic.com/docs/apm/agents/go-agent/api-guides/guide-using-go-agent-api).
+
+## More samples
+
+If you’d like to see more writing samples from my time at New Relic, let me know. I have many more I could share. 
+
+A note about my time at Amazon: unfortunately, most of my work at Amazon Ads API department was spent on internal documentation, and I can't share this publicly. 
+
+You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&from=2023-12-01&to=2023-12-31). Those commits are from my final 2.5 years or so at New Relic, ending in late 2023. 
 
 ## Content marketing 
 
