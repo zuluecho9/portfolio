@@ -471,15 +471,47 @@ If the work is happening in a different goroutine from where the transaction sta
 
 **READ MORE**: This doc is largely unchanged from when I wrote it in 2017. [Read the rest of the doc here](https://docs.newrelic.com/docs/apm/agents/go-agent/api-guides/guide-using-go-agent-api).
 
+---
+
 ## More samples
 
 If you’d like to see more writing samples from my time at New Relic, let me know. I have many more I could share. 
 
-A note about my time at Amazon: unfortunately, most of my work at Amazon Ads API department was spent on internal documentation, and I can't share this publicly. 
+A note about my time at Amazon: unfortunately, most of my work for the Amazon Ads API department was spent on internal docs for API designers and API consumers, and I can't share this publicly. That's unfortunate, as I was proud of helping a large internal audience build and consume APIs more efficiently. 
 
 You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&from=2023-12-01&to=2023-12-31). Those commits are from my final 2.5 years or so at New Relic, ending in late 2023. 
 
 ## Content marketing 
+
+Over the years, I’ve done quite a bit of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, guides, and the like. The goals were generally a) to gather online traffic/leads, and b) to communicate expertise and trustworthiness in the chosen domain.
+
+Examples:
+*​ [Hydrolix content marketing](#hydrolix-log-storage)
+* Spire satellite data content marketing
+
+### Hydrolix log storage
+
+Hydrolix is a streaming data-lake solution designed for log storage and analytics. In 2025, I wrote several blog posts for them aimed at gathering more leads from companies with
+high-volume logs. This included a focus on the security-related benefits of advanced log parsing and analytics. This work involved me working side-by-side with marketing team members to arrive at optimal SEO approaches for titles and keywords.
+
+Pieces I wrote for Hydrolix:
+* [Unlocking threat-hunting insights from high-volume network logs](https://hydrolix.io/blog/threat-hunting-insights/)
+* [Log management: A detailed guide](https://hydrolix.io/blog/log-management-guide/)
+* [Best practices for monitoring CDN security](https://hydrolix.io/blog/cdn-security-monitoring-best-practices/)
+
+
+### Spire satellite data
+
+Spire is a satellite company and a satellite data company. Between 2018 and 2021, I wrote roughly a dozen pieces for them, aimed at demonstrating expertise and thought leadership in several domains, including agriculture applications, maritime management applications, and aviation applications. This work involved a lot of research on my part: learning how satellite data was being used, and might be used, to improve various systems and workflows.
+
+I also helped them overhaul their website and write copy for all major components/sections of their new site (although the site has been overhauled again since I did that work).
+
+Here are a few of the resources I created for Spire:
+
+*​ [White paper: An Ocean of Data: The digital revolution and its ongoing impact on maritime industries](https://spire.com/wp-content/uploads/2020/02/An-Ocean-of-Data-The-digital-Revolution.pdf)
+*​ [Case study: TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
+* [Blog post: As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
+* [Blog post: Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
 
 
 ## Coding and scripting experience 
