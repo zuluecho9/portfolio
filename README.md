@@ -18,10 +18,10 @@ I'm an experienced technical writer and all-around communicator, skilled at turn
 - An instructional designer
 - A commercial video writer/director/producer
 - An author of a newsletter with 140K+ subscribers, and writer/reviewer of content for a social media team with 3M+ followers
-- An author and publisher of several successful books (48,000+ sold)
+- An author and publisher of several successful non-fiction/how-to books (48,000+ sold)
 - An independent investigative journalist whose [research](https://apokerplayer.medium.com/zach-elwoods-investigations-into-deceptive-online-activity-60c3b11c2774) has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, and more
 
-What ties these diverse endeavors together is a striving for clear, accurate, and engaging communication. 
+What ties these diverse endeavors together is my passion for clear, accurate, and engaging communication. 
 
 For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood). 
 
