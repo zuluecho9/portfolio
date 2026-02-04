@@ -123,10 +123,11 @@ We recommend using a spreadsheet to plan out your users' New Relic responsibilit
 
 **READ MORE:** The implementation guide is largely unchanged from when I wrote it in 2023. [Read the rest of the doc here](https://docs.newrelic.com/docs/new-relic-solutions/get-started/implementation-guide-planning-setup). 
 
+---
 
-## Example #2: Understanding telemetry data
+### Example #2: Understanding telemetry data
 
-Despite New Relic being a data-focused company, several years into their existence they still had no public document explaining what they meant by the various types of telemetry data (metrics, events, logs, traces) or how those different types of data were handled by the platform. It had been in the docs backlog for years to create such a doc but, surprisingly, it had never been done. Based on my own frustrations trying to understand these things, as someone new to the observability space, and based on seeing a lot of customer confusion, I proposed that I work on this much-needed doc.
+Despite New Relic being a data-centric company, several years into their existence they still had no public doc explaining the various types of telemetry data they collected (metrics, events, logs, traces) or how that data was handled by the platform. It had been in the docs backlog for years to create such a doc but, surprisingly, it had never been done. Based on my own frustrations trying to understand these areas, as someone new to the observability space, and based on seeing a lot of customer confusion, I made the case that I should work on this much-needed doc.
 
 I researched this by talking with many SMEs across the company, trying to piece together the intricacies of how the industry generally used these words and how we at New Relic were using these words. I was very proud of this doc and it ended up being one of the most high-traffic docs on the site. One reason for this is that it was useful even to non-New Relic customers in understanding how these terms were being used in the monitoring space.
 
@@ -134,51 +135,235 @@ I researched this by talking with many SMEs across the company, trying to piece 
 
 ## New Relic data types
 
-The New Relic platform is built around the four fundamental telemetry data types we believe are necessary for complete and effective system monitoring: metrics, events, logs, and traces.
+The New Relic platform is built around the four fundamental telemetry data types we believe are necessary for complete and effective system monitoring: [metrics](#metrics), [events](#event-data), [logs](#log-data), and [traces](#trace-data) (often referred to as "MELT" in the observability industry).
 
-### Get started
+After you [sign up for a free New Relic account](https://newrelic.com/signup) and [install](https://docs.newrelic.com/docs/using-new-relic/cross-product-functions/install-configure/install-new-relic) any of our monitoring services, you can start working with your data.
 
-This doc will give you a fairly technical explanation of our core data types, their structure, and how they're used in our features. You can use most of our features without needing to understand the underlying data structure. But having a better understanding of this can help you get data into New Relic, understand the data you see in our UI, and query your data.
+### Get started understanding our data [#get-started]
 
-For a simpler explanation of these data types using real-world examples, see Introduction to essential telemetry data types. Another good way to understand your data is to just start querying it.
-
-**Tip**
-
-Access your data easily on one.newrelic.com: Click the Browse data dropdown menu and select the data type (metrics, events, logs, and traces) you want to explore.
+In this doc, we'll give a fairly technical explanation of our core MELT data types, their structure, and how they're used in our features. You can use most of our features without needing to understand the underlying data structure. But having a better understanding of this can help you [get data into New Relic](https://docs.newrelic.com/docs/data-apis/custom-data/get-custom-data-from-any-source), understand the data you see in our UI, and [query and chart your data](https://docs.newrelic.com/docs/query-your-data/explore-query-data/get-started/introduction-querying-new-relic-data).
 
 ### Metrics
 
-First, we’ll explain the definition of metrics from a monitoring industry perspective, and then we’ll explain how New Relic handles metrics. For a list of the metrics we collect, see our documentation on metrics.
+First, we'll explain the definition of metrics from a monitoring industry perspective, and then we'll explain how New Relic handles metrics.
 
-#### Metrics in the monitoring industry
+#### Metrics in the monitoring industry [#metrics-conceptual]
 
 In the software monitoring industry, a metric means a numeric measurement of an application or system. Metrics are typically reported on a regular schedule.
 
 Two major types of metrics are:
 
-- Aggregated data. For example: a count of events over one minute’s time, or the rate of some event per minute.
-- A numeric status at a moment in time. For example: a CPU temperature reading, or a “CPU% used” status.
+* Aggregated data. For example: a count of events over one minute's time, or the rate of some event per minute.
+* A numeric status at a moment in time. For example: a CPU temperature reading, or a “CPU% used” status.
 
 Metrics are relatively easy to report and store because a single record can represent a range of time. They can also be aggregated more and more over time. For example, per-minute data may be “rolled up” to per-hour aggregations after some amount of time, and eventually may be rolled up to a per-day aggregation. This approach is efficient for long-term data storage.
 
-Metrics are a strong solution for storing data long-term, and understanding trends over time. One potential downside is that it can be difficult to do detailed analysis of older data that has been aggregated over time; when high detail is required about specific important actions, event data can be used.
+Metrics are a strong solution for storing data long-term, and understanding trends over time. One potential downside is that it can be difficult to do detailed analysis of older data that has been aggregated over time; when high detail is required about specific important actions, [event data](#event-data) can be used.
 
-#### Metrics at New Relic
+#### Metrics at New Relic [#metrics-new-relic]
 
-Conceptually, "metrics" is a broad, general category. There are various ways New Relic measures and reports metrics but, in practice, when using the New Relic UI, you usually won't have to understand how exactly this happens. In our documentation, we typically will just refer to "metrics," regardless of how that data is reported, unless there's a reason you need to know more (like understanding how to query your data).
+Conceptually, "metrics" is a broad, general category. There are various ways New Relic measures and reports metrics but, in practice, when using the New Relic UI, you usually won't have to understand how exactly this happens. In our documentation, we typically will just refer to "metrics," regardless of how that data is reported, unless there's a reason you need to know more (like understanding [how to query your data](https://docs.newrelic.com/docs/using-new-relic/data/understand-data/query-new-relic-data)).
 
-**READ MORE:** This doc is largely unchanged from when I wrote it in 2018. Read the rest of the doc here:  
-https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types
+Here are some of the ways metrics are reported and stored across the New Relic platform:
+
+##### Dimensional metrics 
+
+In the monitoring industry, "dimensional" metrics refer to metric data that has a variety of [attributes](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#attribute) (dimensions) attached, such as duration-related attributes (start time, end time), entity ID, region, host, and more. This level of detail allows for in-depth analysis and querying.
+
+At New Relic, this metric data is attached to our [`Metric`](https://docs.newrelic.com/docs/data-apis/understand-data/metric-data/metric-data-type) data type. This is our primary metric data type and is used by many of our tools, including:
+
+    * Our integrations with third-party telemetry services, like our [OpenTelemetry integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/opentelemetry/opentelemetry-introduction), our [Prometheus integration](https://docs.newrelic.com/docs/infrastructure/prometheus-integrations/get-started/send-prometheus-metric-data-new-relic), and our [DropWizard integration](https://docs.newrelic.com/docs/more-integrations/open-source-telemetry-integrations/dropwizard/dropwizard-reporter).
+    * The [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api) (the underlying API used by the above tools).
+    * The [events-to-metrics service](https://docs.newrelic.com/docs/data-ingest-apis/get-data-new-relic/metric-api/introduction-events-metrics-service).
+
+To query the `Metric` data type, you could use a NRQL query like:
+
+```sql
+SELECT * FROM Metric
+```
+
+As time passes, metrics are increasingly aggregated into larger time buckets. This is done to optimize your ability to query data over a long period of time.
+
+For more details about `Metric` data, see [`Metric` data structure](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-manage-data/understand-data/metric-data-type). For tips on querying this data, see [Metric query examples](https://docs.newrelic.com/docs/data-ingest-apis/get-data-new-relic/metric-api/view-query-you-metric-data).
+
+Some of our other metric data types are exposed as dimensional metrics and are available for querying. For example:
+
+* [APM metric timeslice data](https://docs.newrelic.com/docs/data-apis/understand-data/metric-data/query-apm-metric-timeslice-data-nrql)
+
+* [Some infrastructure data](https://docs.newrelic.com/docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/query-infrastructure-dimensional-metrics-nrql)
 
 ---
 
+**READ MORE:** This doc is largely unchanged from when I wrote it in 2018. [Read the rest of the doc here](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types). 
+
+---
+
+## Pricing/billing and account/user model updates
+
+This project was probably my most important accomplishment during my time at New Relic: overhauling the docs to reflect substantial changes to the pricing model and the account/user model. These were core changes to the platform that impacted many aspects of the customer experience; these changes impacted hundreds of docs. They were also touchy and sensitive changes. Customers can be easily frustrated when there is confusion over how their billing works, or how to manage/provision users (which affects cost). 
+
+This project would have been tough enough if all customers were simultaneously switching over to the new models. Unfortunately, the new ways applied mainly to brand new customers; the older models would continue to be used for thousands of our already existing customers, and we’d slowly migrate older customers to the new ways. Also, the two new models, the pricing model and the account/user model, were not linked; it was possible for customers to update one but not the other. This meant that customers could be in one of four states, which created large challenges in thinking through how to efficiently and cleanly address these four customer segments in the docs. 
+
+The goal was to create clean, simple docs that would not confuse customers — especially new customers, who we didn’t want to bog down with confusing details they didn't need to know. 
+
+I was proud of the architecture and readability of the many docs I created and edited for this project. The work I did received many accolades from across the company. This is a performance review from my manager after that launch (known as Hercules): 
+
+*Thank you for an incredible launch. Honestly, I'm so damn grateful for you that I don't know where to start. Let's start with accounts: You are fearless. The accounts and pricing docs were a crowded billboard of ancient callouts, mysterious tables, purposeless paragraphs. As if that challenge wasn't great enough, we gave you black box of new features labeled only "Pricing and Accounts V2." It would've been easy to throw up your hands, or to just tack the new stuff on top of the old and call it good enough.*
+
+*But rather than do that, you dove in. You pushed PMs and leaders to clarify a cloudy vision. You articulated a whole new user journey for pricing, where our site can focus on helping users and marketing and product can handle the upsell details. You helped define the very name of the new pricing model. You earned you and docs a shoutout from the GM in the wrap-up session.*
+
+*You did all that without neglecting the daily mechanics that make this team great. By my count you've edited 351 docs since Hercules began. Last week, you chased down every hero question to the end of the rabbithole instead of just closing your eyes to hit publish.* 
+
+Here’s a sample from the pricing overview doc (this comes from a [2021 version of the pricing doc](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing)): 
+
+## Sample section 
+
+### How New Relic pricing works 
+
+An explanation of how New Relic One pricing works, and how to view and manage billing.
+
+*This document explains the New Relic One pricing plan. If you’re on our original pricing plan, see [Product-based pricing](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/original-accounts-billing/product-pricing/product-based-pricing). Not sure which you're on? See [Overview of pricing](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/transition-guide-our-new-pricing-plan-user-model).*
+
+#### How New Relic One pricing works 
+
+Starting July 30, 2020, all of our new customers are on a pricing plan that we call New Relic One pricing. Customers on our original pricing plan are able to transition to this  
+[pricing](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/original-accounts-billing/original-product-based-pricing/overview-changes-pricing-user-model#how-to-transition).
+
+For New Relic One pricing, billing is based on these factors:
+
+- The pricing tier (Standard, Pro, Enterprise). Higher pricing tiers give access to more account-related admin features, more support, longer data retention, and other features ([learn more](https://web.archive.org/web/20210128094340/https://newrelic.com/pricing)).
+- The number of [full users](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-users/users-roles#user-type) (users with access to everything available at that tier). [Basic users](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-users/users-roles#user-type) are free. Standard tier includes one full user for free, and a max of five.
+- The amount of data ingested. 100 GBs per month is free. $0.25 per GB ingested above that.
+- For [Applied Intelligence](https://web.archive.org/web/20210128094340/https://newrelic.com/pricing), our intelligent alert/detection system: the number of events above the free included amount. (Note that our alerting functionality is available for free and doesn't count towards this limit.)
+
+> **TIP:** Note that this pricing plan allows you to have an entirely free Standard tier account with one full [user](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/users-roles#user-type) and multiple [basic users](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/users-roles#user-type), provided you're okay with the free included limits.
+
+#### View and manage billing and usage
+
+Some ways to view and manage your billing and usage:
+
+- To view and manage billing settings: from the [account dropdown](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#account-dropdown), click **Manage your plan**.
+- To view billing-related usage: from the [account dropdown](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#account-dropdown), click **View your usage**.
+- To view and manage data ingest and retention: from the [account dropdown](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/glossary#account-dropdown), click **Manage your data**.
+
+You can also do [in-depth queries of your usage data and set up alerts](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-users/queries-alerts).
+
+Only account owners or users with the **Billing user** role can manage billing and usage.
+
+#### How to update your billing and payment information
+
+Here are the steps:
+
+- Ensure you are an account owner or a user with the Billing user role.
+- From [one.newrelic.com](https://one.newrelic.com/), select the [account dropdown](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts-partnerships/education/getting-started-new-relic/glossary#account-dropdown) on the upper right corner of your screen, click **Manage your plan**.
+- Next, click **Billing & Invoices**.
+- To update your credit card information, click **Manage Payment**.
+- To update your billing details, click **Manage Billing**.
+
+#### Billing calculation details
+
+For accounts on New Relic One pricing, some high-level billing information is displayed  
+[in the UI](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/#billing-usage-ui). Here are some more details about how billing works:
+
+---
+
+**READ MORE:**  
+To read more of this pricing overview doc, see [this 2021 version of the doc](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/). [Here’s a doc explaining the pricing changes in more detail](https://docs.newrelic.com/docs/accounts/original-accounts-billing/original-product-based-pricing/overview-changes-pricing-user-model).
+
+---
+
+## Example #4: Overview of New Relic APIs
+
+By the time I became Senior Tech Writer at New Relic, I was the go-to person for docs pertaining to the company’s core APIs and their data model. This was largely due to the time I’d spent working through the intricacies of how New Relic handled data and how different teams used data terminology.
+
+One of my projects was to improve the overview of New Relic’s APIs. They lacked a clean overview of their API resources. They had so many APIs, it could be rather confusing to know which API to use for what. This problem was exacerbated by the addition of a GraphQL-format API, which was eventually going to be their main API for querying data and making
+configurations — but in the meantime it was rather rudimentary in features and also lived alongside all the other, older, more established APIs.
+
+Here’s an excerpt from my API overview doc:
+
+### Sample section
+
+## Introduction to New Relic APIs
+
+New Relic offers a variety of APIs and SDKs you can use to:
+* Send data to New Relic.​
+* Retrieve data from New Relic.
+* View and configure settings.
+  
+Looking for API keys? [See API keys](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+
+### APIs for data ingest
+
+Our data ingest APIs are some of our [many solutions for reporting data](https://newrelic.com/instant-observability). Our APIs can be used directly, but they're also the underlying ingest route for many of our data-reporting tools. If you're just getting started reporting data to New Relic, we recommend starting at [Install New Relic](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/install-configure/install-new-relic).
+
+<table>
+  <thead>
+    <tr>
+      <th style={{ width: "150px" }}>
+        API type
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        [Metric API](https://docs.newrelic.com/docs/introduction-new-relic-metric-api)
+      </td>
+
+      <td>
+        Send [dimensional metrics](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#dimensional-metrics) to New Relic from any source (including other telemetry monitoring services).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        [Event API](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-apis/introduction-event-api)
+      </td>
+
+      <td>
+        Send custom [event data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#events-new-relic) to New Relic without the use of an agent or integration.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        [Log API](https://docs.newrelic.com/docs/enable-new-relic-logs-http-input)
+      </td>
+
+      <td>
+        Send [log data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#log-data) to New Relic.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        [Trace API](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/introduction-new-relic-trace-api)
+      </td>
+
+      <td>
+        Send [distributed tracing data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#trace-data) (`Span` data) to New Relic without the use of an agent or integration.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+READ MORE: This doc is largely unchanged from when I wrote it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/apis/intro-apis/introduction-new-relic-apis/).
+
+---
+
+## Example 4: Distributed trace API
 
 
 
 
-
-
-## Content 
+## Content marketing 
 
 
 ## Coding and scripting experience 
