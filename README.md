@@ -486,8 +486,9 @@ You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&
 Over the years, I’ve done quite a bit of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, guides, and the like. The goals were generally a) to gather online traffic/leads, and b) to communicate expertise and trustworthiness in the chosen domain.
 
 Examples:
+
 *​ [Hydrolix content marketing](#hydrolix-log-storage)
-* Spire satellite data content marketing
+* [Spire satellite data content marketing](#spire-satellite-data)
 
 ### Hydrolix log storage
 
@@ -495,6 +496,7 @@ Hydrolix is a streaming data-lake solution designed for log storage and analytic
 high-volume logs. This included a focus on the security-related benefits of advanced log parsing and analytics. This work involved me working side-by-side with marketing team members to arrive at optimal SEO approaches for titles and keywords.
 
 Pieces I wrote for Hydrolix:
+
 * [Unlocking threat-hunting insights from high-volume network logs](https://hydrolix.io/blog/threat-hunting-insights/)
 * [Log management: A detailed guide](https://hydrolix.io/blog/log-management-guide/)
 * [Best practices for monitoring CDN security](https://hydrolix.io/blog/cdn-security-monitoring-best-practices/)
