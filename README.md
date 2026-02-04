@@ -52,7 +52,7 @@ Overview of examples:
 
 - [Implementation guide](#example-1-new-relic-implementation-guide) 
 - [Telemetry data concepts](#example-2-understanding-telemetry-data)  
-- [Pricing and billing](#example-3-pricing-and-account-user-model-updates)
+- [Pricing and billing](#example-3-pricing-billing-and-account-user-model-updates)
 - [API overviews](#example-4-api-overview)
 - [Distributed tracing API](#example-5-distributed-tracing-api)  
 - [Query language](#example-6-querying-data-with-nrql)  
@@ -139,7 +139,7 @@ The New Relic platform is built around the four fundamental telemetry data types
 
 After you [sign up for a free New Relic account](https://newrelic.com/signup) and [install](https://docs.newrelic.com/docs/using-new-relic/cross-product-functions/install-configure/install-new-relic) any of our monitoring services, you can start working with your data.
 
-### Get started understanding our data [#get-started]
+### Get started understanding our data
 
 In this doc, we'll give a fairly technical explanation of our core MELT data types, their structure, and how they're used in our features. You can use most of our features without needing to understand the underlying data structure. But having a better understanding of this can help you [get data into New Relic](https://docs.newrelic.com/docs/data-apis/custom-data/get-custom-data-from-any-source), understand the data you see in our UI, and [query and chart your data](https://docs.newrelic.com/docs/query-your-data/explore-query-data/get-started/introduction-querying-new-relic-data).
 
@@ -147,7 +147,7 @@ In this doc, we'll give a fairly technical explanation of our core MELT data typ
 
 First, we'll explain the definition of metrics from a monitoring industry perspective, and then we'll explain how New Relic handles metrics.
 
-#### Metrics in the monitoring industry [#metrics-conceptual]
+#### Metrics in the monitoring industry
 
 In the software monitoring industry, a metric means a numeric measurement of an application or system. Metrics are typically reported on a regular schedule.
 
@@ -160,7 +160,7 @@ Metrics are relatively easy to report and store because a single record can repr
 
 Metrics are a strong solution for storing data long-term, and understanding trends over time. One potential downside is that it can be difficult to do detailed analysis of older data that has been aggregated over time; when high detail is required about specific important actions, [event data](#event-data) can be used.
 
-#### Metrics at New Relic [#metrics-new-relic]
+#### Metrics at New Relic 
 
 Conceptually, "metrics" is a broad, general category. There are various ways New Relic measures and reports metrics but, in practice, when using the New Relic UI, you usually won't have to understand how exactly this happens. In our documentation, we typically will just refer to "metrics," regardless of how that data is reported, unless there's a reason you need to know more (like understanding [how to query your data](https://docs.newrelic.com/docs/using-new-relic/data/understand-data/query-new-relic-data)).
 
@@ -354,13 +354,94 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 
 ---
 
-READ MORE: This doc is largely unchanged from when I wrote it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/apis/intro-apis/introduction-new-relic-apis/).
+**READ MORE**: This doc is largely unchanged from when I wrote it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/apis/intro-apis/introduction-new-relic-apis/).
 
 ---
 
 ## Example 4: Distributed trace API
 
+One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
+### Sample section 
+
+## Report traces via the Trace API (New Relic format)
+
+If you want to create your own tracing implementation, you can use our [Trace API](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api). This doc explains how to send traces in our general format, also known as `newrelic` format. (To send Zipkin-format data, see [Zipkin](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/report-zipkin-format-traces-trace-api).)
+
+## Get started [#send-data-overview]
+
+Using our Trace API is as simple as:
+
+* Sending trace data in the expected format (in this case, our `newrelic` format).
+* Sending that data to the appropriate [endpoint](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/trace-api-general-requirements-limits#requirements).
+
+Before using the Trace API, you should decide whether you want to use Infinite Tracing. To learn more about this, see [Intro to Infinite Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/infinite-tracing/introduction-infinite-tracing) and [Sampling considerations](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api#sampling).
+
+To get started using the Trace API, follow one of these paths:
+
+* Want to use [Infinite Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api#sampling)? Follow the [Set up a trace observer](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/infinite-tracing/set-trace-observer#set-up) instructions. That walks you through creating a trace observer and sending a sample payload to the trace observer endpoint.
+* Don't want Infinite Tracing? See how to send a [sample payload](#new-relic-quick-start) (below).
+
+## Send sample trace payload (non-Infinite Tracing) [#new-relic-quick-start]
+
+The following explains how to send a standard (non-[Infinite Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api#sampling)) payload to the Trace API using our `newrelic` format.
+
+1. Get a <InlinePopover type="licenseKey"/> for the account you want to report data to.
+2. Insert that key into the following JSON and then send the JSON to our endpoint. Note: if you have a EU New Relic account, use the [EU endpoint](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/trace-api/trace-api-general-requirements-limits#requirements) instead.
+
+   ```bash
+   curl -i -H 'Content-Type: application/json' \
+       -H 'Api-Key: YOUR_LICENSE_KEY' \
+       -H 'Data-Format: newrelic' \
+       -H 'Data-Format-Version: 1' \
+       -X POST \
+       -d '[
+               {
+                   "common": {
+                       "attributes": {
+                           "service.name": "Test Service A",
+                           "host": "host123.example.com"
+                       }
+                   },
+                   "spans": [
+                       {
+                           "trace.id": "123456",
+                           "id": "ABC",
+                           "attributes": {
+                               "duration.ms": 12.53,
+                               "name": "/home"
+                           }
+                       },
+                       {
+                           "trace.id": "123456",
+                           "id": "DEF",
+                           "attributes": {
+                               "error.message": "Invalid credentials",
+                               "service.name": "Test Service A",
+                               "host": "host456.example.com",
+                               "duration.ms": 2.97,
+                               "name": "/auth",
+                               "parent.id": "ABC"
+                           }
+                       }
+                   ]
+               }
+           ]' 'https://trace-api.newrelic.com/trace/v1'
+   ```
+
+>     If you're sending more than one `POST`, change the `trace.id` to a unique value. Sending the same payload or span `id` multiple times for the same `trace.id` may result in fragmented traces in the UI.
+
+3. If your test returned `HTTP/1.1 202 Accepted`, go to [our UI](https://one.newrelic.com/launcher/distributed-tracing-nerdlets.distributed-tracing?launcher=eyJ0aW1lUmFuZ2UiOnsiYmVnaW5fdGltZSI6bnVsbCwiZW5kX3RpbWUiOm51bGwsImR1cmF0aW9uIjoxODAwMDAwfSwiJGlzRmFsbGJhY2tUaW1lUmFuZ2UiOnRydWV9&pane=eyJuZXJkbGV0SWQiOiJkaXN0cmlidXRlZC10cmFjaW5nLW5lcmRsZXRzLmRpc3RyaWJ1dGVkLXRyYWNpbmctbGF1bmNoZXIiLCJzb3J0SW5kZXgiOjAsInNvcnREaXJlY3Rpb24iOiJERVNDIiwicXVlcnkiOnsib3BlcmF0b3IiOiJBTkQiLCJpbmRleFF1ZXJ5Ijp7ImNvbmRpdGlvblR5cGUiOiJJTkRFWCIsIm9wZXJhdG9yIjoiQU5EIiwiY29uZGl0aW9ucyI6W119LCJzcGFuUXVlcnkiOnsib3BlcmF0b3IiOiJBTkQiLCJjb25kaXRpb25TZXRzIjpbeyJjb25kaXRpb25UeXBlIjoiU1BBTiIsIm9wZXJhdG9yIjoiQU5EIiwiY29uZGl0aW9ucyI6W3siYXR0ciI6InNlcnZpY2UubmFtZSIsIm9wZXJhdG9yIjoiRVEiLCJ2YWx1ZSI6IlRlc3QgU2VydmljZSBBIn1dfV19fX0=) to see a query of your test data using the span attribute `service.name = Test Service A`.
+
+>     Traces may take up to one minute to be processed by both the trace observer and the Trace API.
+
+---
+
+**READ MORE**: This doc is largely unchanged from when I wrote it in 2017. [Read the rest of the doc here](https://docs.newrelic.com/docs/distributed-tracing/trace-api/report-new-relic-format-traces-trace-api).
+
+---
+
+## 
 
 
 ## Content marketing 
