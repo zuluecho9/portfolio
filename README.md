@@ -50,6 +50,7 @@ For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
 - [Tech writing examples](#tech-writing-examples)  
 - [Content marketing examples](#content-marketing-examples)
 - [Coding/scripting experience](#coding-and-scripting-experience)
+- [Print/ebook books](#book-projects) 
 
 (Other sections coming soon...)
 
@@ -531,4 +532,12 @@ I'm far from a professional coder but I have strong general knowledge of softwar
 
 As evidence of my skills and comfort with coding, check out a [personal coding project](www.linkedin.com/feed/update/urn:li:activity:7401999440531705856) of mine, which involves video and computer-vision algorithms.  
 
+## Book projects 
+
+I've authored several commercially successful and critically acclaimed books. These projects are a testament to my ability to oversee large, complex projects through to completion. These experiences also taught me a lot about book publishing (e.g., print-on-demand processes, audiobook and ebook production, book cover and interior design) and promotion. 
+
+These projects include: 
+
+* **Poker books.** I used to play poker for a living, way back in the 2003-2007 time frame. This led to me writing critically acclaimed and highly respected books on poker tells/behavior. My poker books have sold more than 48,000 copies, across all formats. [Read some reviews](https://www.readingpokertells.com/reviews). 
+* **Political polarization books.** I wrote a couple books aimed at reducing toxic political polarization. These books have received positive reviews from professionals in the political and polarization spheres, including from several polarization researchers. [Read some reviews](https://www.american-anger.com/reviews). 
 
