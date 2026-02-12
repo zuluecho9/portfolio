@@ -17,7 +17,7 @@ I'm an experienced technical writer and all-around communicator, skilled at turn
 - A content marketer and strategist for tech/software companies
 - An instructional designer
 - A commercial video writer/director/producer
-- Writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content for a team with 3M+ followers
+- An author of a non-profit newsletter with 140K+ subscribers, and a writer/reviewer of social media content for a team with 3M+ followers
 - An author and publisher of several successful non-fiction/how-to books (48,000+ sold)
 - An independent investigative journalist whose [research](https://apokerplayer.medium.com/zach-elwoods-investigations-into-deceptive-online-activity-60c3b11c2774) has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, and more
 
