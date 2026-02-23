@@ -1,6 +1,6 @@
 # Zach Elwood
 
-**Technical Writer | Communications Specialist | Content Marketing and Strategy | Audio/Video Producer**
+**Technical Writer | Communications Specialist | Content Marketing | Journalist**
 
 ---
 
