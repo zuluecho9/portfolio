@@ -50,7 +50,8 @@ For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
 - [Tech writing examples](#tech-writing-examples)  
 - [Content marketing examples](#content-marketing-examples)
 - [Coding/scripting experience](#coding-and-scripting-experience)
-- [Print/ebook books](#book-projects) 
+- [Print/ebook books](#book-projects)
+- [Investigative journalism](#journalism) 
 
 (Other sections coming soon...)
 
@@ -539,5 +540,10 @@ I've authored several commercially successful and critically acclaimed books. Th
 These projects include: 
 
 * **Poker books.** I used to play poker for a living, way back in the 2003-2007 time frame. This led to me writing critically acclaimed and highly respected books on poker tells/behavior. My poker books have sold more than 48,000 copies, across all formats. [Read some reviews](https://www.readingpokertells.com/reviews). 
-* **Political polarization books.** I wrote a couple books aimed at reducing toxic political polarization. These books have received positive reviews from professionals in the political and polarization spheres, including from several polarization researchers. [Read some reviews](https://www.american-anger.com/reviews). 
+* **Political polarization books.** I wrote a couple books aimed at reducing toxic political polarization. These books have received positive reviews from professionals in the political and polarization spheres, including from several polarization researchers. [Read some reviews](https://www.american-anger.com/reviews).
 
+## Journalism
+
+My independent investigative journalism has exposed fraud, deceptive social media accounts, and liars and propagandists of various sorts. Notable projects include my exposé of behavior “expert” Chase Hughes (with the [first episode](https://www.youtube.com/watch?v=4t1DMxmqJOk) getting 149K+ views on YouTube), my research into foreign-origin fake Facebook accounts (featured in [The New York Times](https://www.nytimes.com/2017/11/03/technology/facebook-fake-accounts.html) and [The Washington Post](https://www.washingtonpost.com/business/economy/when-a-stranger-takes-your-face-facebooks-failed-crackdown-on-fake-accounts/2018/05/04/d3318838-4f1a-11e8-af46-b1d6dc0d9bfe_story.html)), and my investigation into the anonymous fake-news creator known as True Pundit (mentioned in [Buzzfeed by Craig Silverman](https://www.buzzfeednews.com/article/craigsilverman/revealed-notorious-pro-trump-misinformation-site-true)). I’m currently working on an exposé of a security-related product whose claims of being hard to deceive/cheat I've shown to be egregiously false. [See more examples of my investigative journalism(https://apokerplayer.medium.com/zach-elwoods-investigations-into-deceptive-online-activity-60c3b11c2774). 
+
+Another journalistic endeavor of mine is my [psychology-focused podcast](https://behavior-podcast.com), for which I've interviewed more than 170 people. I've interviewed a wide variety of people, including psychology researchers, law enforcement and legal professionals, philosophers, conflict resolution professionals, militant protesters, and more). As smaller podcasts go, it's fairly successful; typical episodes get between 7-9,000 listens in the first month of release, with some video-intensive episodes getting tens of thousands of views on YouTube. [See a compilation of episodes related to law enforcement and investigative work](https://behavior-podcast.com/reading-behavior-in-criminal-security-and-legal-scenarios). 
