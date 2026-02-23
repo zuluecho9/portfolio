@@ -1,3 +1,7 @@
+## Tech writing examples
+
+For [my portfolio](https://github.com/zuluecho9/portfolio), these are examples from my tech writing career. 
+
 During my 7.5 years at New Relic, an observability and full‑stack monitoring company with 700+ integrations, I worked on a wide range of highly technical documentation projects. My final role there was Lead Technical Writer (a role above Senior). The projects I worked on spanned multiple technologies, programming languages, types of APIs, and data models.
 
 > Note on aesthetics: The examples below currently lack the styling of the New Relic docs site where they were originally created. Where possible, I link to the public versions, which remain largely unchanged from when I wrote them.
