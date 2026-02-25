@@ -1,4 +1,4 @@
-## Tech writing examples
+# Tech writing examples
 
 For [my portfolio](https://github.com/zuluecho9/portfolio), these are examples from my tech writing career. 
 
@@ -18,7 +18,7 @@ Overview of examples:
 
 ---
 
-### Example 1: New Relic implementation guide
+# Example 1: New Relic implementation guide
 
 For one of my final major projects at New Relic, I created a comprehensive implementation guide to help new customers set up the platform efficiently and start getting value quickly. This was challenging due to the sheer number of New Relic features and the wide range of customer sizes and architectures, which made it difficult to define a single setup path that worked for everyone. That complexity was a key reason such a guide hadn’t existed before, despite being a long-standing gap.
 
@@ -83,7 +83,7 @@ We recommend using a spreadsheet to plan out your users' New Relic responsibilit
 
 ---
 
-### Example #2: Understanding telemetry data
+# Example #2: Understanding telemetry data
 
 Despite New Relic being a data-centric company, several years into their existence they still had no public doc explaining the various types of telemetry data they collected (metrics, events, logs, traces) or how that data was handled by the platform. It had been in the docs backlog for years to create such a doc but, surprisingly, it had never been done. Based on my own frustrations trying to understand these areas, as someone new to the observability space, and based on seeing a lot of customer confusion, I made the case that I should work on this much-needed doc.
 
@@ -155,7 +155,7 @@ Some of our other metric data types are exposed as dimensional metrics and are a
 
 ---
 
-## Example 3: Pricing/billing and account/user model updates
+# Example #3: Pricing/billing and account/user model updates
 
 This project was probably my most important accomplishment during my time at New Relic: overhauling the docs to reflect substantial changes to the pricing model and the account/user model. These were core changes to the platform that impacted many aspects of the customer experience; these changes impacted hundreds of docs. They were also touchy and sensitive changes. Customers can be easily frustrated when there is confusion over how their billing works, or how to manage/provision users (which affects cost). 
 
@@ -228,7 +228,7 @@ To read more of this pricing overview doc, see [this 2021 version of the doc](ht
 
 ---
 
-## Example #4: Overview of New Relic APIs
+# Example #4: Overview of New Relic APIs
 
 By the time I became Senior Tech Writer at New Relic, I was the go-to person for docs pertaining to the company’s core APIs and their data model. This was largely due to the time I’d spent working through the intricacies of how New Relic handled data and how different teams used data terminology.
 
@@ -265,7 +265,7 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 
 ---
 
-## Example 5: Distributed tracing API
+# Example #5: Distributed tracing API
 
 One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
@@ -348,7 +348,7 @@ The following explains how to send a standard (non-[Infinite Tracing](https://do
 
 ---
 
-## Example #6: Querying data with NRQL
+# Example #6: Querying data with NRQL
 
 One project of mine was to improve the New Relic query language (NRQL) docs. NRQL was a SQL-like query language customers could use to query their observability data via the UI or via an API. When I started, the NRQL docs were hard to get started with: they didn’t do a good job explaining at a high level why you’d want to use NRQL, what the major use cases were, and how to quickly get started with it. I created a doc that would make people feel comfortable getting started and that would hopefully provide some value quickly.
 
@@ -383,7 +383,7 @@ You can use NRQL across the platform to access your data. Those places include:
 
 ---
 
-## Example 7: Go language monitoring agent APIs
+# Example #7: Go language monitoring agent APIs
 
 New Relic’s core feature is application performance monitoring (APM). This was handled by installable agents available for several coding languages (Go, Ruby, Java, .NET, Python, PHP, Node.js). I worked on all of these docs over the years, with a special focus on Go, .NET, and Python. Work in these areas included documenting installation, configuration, data explanations, common use cases, and code snippets. 
 
@@ -429,7 +429,7 @@ If the work is happening in a different goroutine from where the transaction sta
 
 ---
 
-## More samples
+# More samples
 
 If you’d like to see more writing samples from my time at New Relic, let me know. I have many more I could share. 
 
