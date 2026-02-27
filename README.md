@@ -15,11 +15,11 @@ I'm an experienced technical writer and all-around communicator, skilled at turn
 
 - A technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs)  
 - A content marketer and strategist for tech/software companies
-- An independent investigative journalist whose research has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, and more
+- An instructional designer who has written and overseen production of 100+ e-learning courses
+  A commercial video writer/director/producer
+- An independent investigator and journalist whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
 - An author and publisher of some successful non-fiction/how-to books (48,000+ sold)
 - A writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content with an audience of 3M+ 
-- An instructional designer who has written 100+ elearning courses on industrial operations and safety
-- A commercial video writer/director/producer
 
 What ties these diverse endeavors together is my passion for clear, accurate, and engaging communication. 
 
