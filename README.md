@@ -43,7 +43,11 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 > 
 > **- Shawn Kilburn**, previously a docs manager at New Relic
 
-For more testimonials, see [my LinkedIn](https://linkedin.com/in/zelwood)
+> "Zachary is one of the best doc writers I've had the pleasure of working with. He was able to stay up to date in the complex spaces of authentication, authorization, and user management and keep the docs accurate and user friendly."
+> 
+> **- Tori Meyer**, IAM product manager at New Relic
+
+For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/details/recommendations).
 
 ## Portfolio sections
 
