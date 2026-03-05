@@ -47,6 +47,10 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 > 
 > **- Tori Meyer**, IAM product manager at New Relic
 
+> "He's got a gift for conciseness where it matters most, and the UI content he contributed to New Relic was always written with the user needs foremost. He tenaciously ran down complex, often fraught terms, bringing together stakeholders from around the company to drive consensus." 
+> 
+> **- Michelle Fredette**, Senior manager in content design at New Relic
+
 For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/details/recommendations).
 
 ## Portfolio sections
