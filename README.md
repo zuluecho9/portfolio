@@ -41,15 +41,15 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 
 > "Zach is probably the most technically capable and proficient writer I've ever had the pleasure to work with. He's still the #1 contributor to our [docs repo](https://github.com/newrelic/docs-website/graphs/contributors) a year after he left."
 > 
-> **- Shawn Kilburn**, previously a docs manager at New Relic
+> **- Shawn Kilburn**, previously docs manager at New Relic
 
 > "Zachary is one of the best doc writers I've had the pleasure of working with. He was able to stay up to date in the complex spaces of authentication, authorization, and user management and keep the docs accurate and user friendly."
 > 
-> **- Tori Meyer**, IAM product manager at New Relic
+> **- Tori Meyer**, IAM Product Manager at New Relic
 
 > "He's got a gift for conciseness where it matters most, and the UI content he contributed to New Relic was always written with the user needs foremost. He tenaciously ran down complex, often fraught terms, bringing together stakeholders from around the company to drive consensus." 
 > 
-> **- Michelle Fredette**, Senior manager in content design at New Relic
+> **- Michelle Fredette**, Senior Manager, Content Design, at New Relic
 
 For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/details/recommendations).
 
