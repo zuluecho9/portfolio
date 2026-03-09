@@ -14,11 +14,11 @@ This is a portfolio for [Zachary Elwood](https://linkedin.com/in/zelwood)'s tech
 
 I'm an experienced technical writer and all-around communicator, skilled at turning complex concepts into clear, engaging stories and instructions, and at seeing large projects through to completion. I am: 
 
-- A technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs)
-- A content marketer and strategist for tech/software companies
+- An experienced technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs) comfortable in complex, fast-moving environments and at using git-based workflows
+- A content marketer and strategist for tech/software companies who has written dozens of marketing resources (white papers, case studies, blog posts, more) 
 - An instructional designer who has written and overseen production of 100+ e-learning courses
-- An amateur coder comfortable using AI/LLM tools to complete [projects](#coding-and-scripting-experience)
-- A commercial video writer/director/producer
+- An amateur coder comfortable using AI/LLM tools to solve problems and complete [projects](#coding-and-scripting-experience)
+- A video producer who has written, directed, and edited dozens of commercial video projects
 - An independent investigator and journalist whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
 - An author and publisher of some successful non-fiction/how-to books (48,000+ sold)
 - A writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content with an audience of 3M+ 
