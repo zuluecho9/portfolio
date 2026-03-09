@@ -7,16 +7,18 @@
 [![Zach Elwood linkedin header image](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)
 
 ## What's this? 
+
 This is a portfolio for [Zachary Elwood](https://linkedin.com/in/zelwood)'s technical writing/communication career.
 
 ## About me
 
-I'm an experienced technical writer and all-around communicator, skilled at turning complex concepts into clear, engaging stories and instructions, and at seeing large projects through to completion. In my life I've been:
+I'm an experienced technical writer and all-around communicator, skilled at turning complex concepts into clear, engaging stories and instructions, and at seeing large projects through to completion. I am: 
 
-- A technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs)  
+- A technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs)
 - A content marketer and strategist for tech/software companies
 - An instructional designer who has written and overseen production of 100+ e-learning courses
-  A commercial video writer/director/producer
+- An amateur coder comfortable using AI/LLM tools to complete [projects](#coding-and-scripting-experience)
+- A commercial video writer/director/producer
 - An independent investigator and journalist whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
 - An author and publisher of some successful non-fiction/how-to books (48,000+ sold)
 - A writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content with an audience of 3M+ 
@@ -106,7 +108,9 @@ Here are a few of the resources I created for Spire:
 
 I'm far from a professional coder but I have strong general knowledge of software development and deployment. My best language is Python, but I've documented and written code examples for many languages, application frameworks, and types of APIs (with most of that experience coming from my time at New Relic, due to the full-stack breadth of their offerings). AI/LLM tools have dramatically improved my ability to write scripts/code to solve specific technical challenges. 
 
-As evidence of my skills and comfort with coding, check out a [personal coding project](www.linkedin.com/feed/update/urn:li:activity:7401999440531705856) of mine, which involves video and computer-vision algorithms.  
+Projects: 
+* A [personal coding project](www.linkedin.com/feed/update/urn:li:activity:7401999440531705856) of mine. Technologies include: Python, video processing libraries, open-source computer-vision libraries. I'm using Claude Code to write the code, based on detailed program specs (and many rounds of troubleshooting).
+* I once wrote an original Python/Django web-based application that used a MySQL database. 
 
 ## Book projects 
 
