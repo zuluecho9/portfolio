@@ -98,8 +98,8 @@ I also helped them overhaul their website and write copy for all major component
 
 Here are a few of the resources I created for Spire:
 
-*​ [White paper: An Ocean of Data: The digital revolution and its ongoing impact on maritime industries](https://spire.com/wp-content/uploads/2020/02/An-Ocean-of-Data-The-digital-Revolution.pdf)
-*​ [Case study: TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
+* [White paper: An Ocean of Data: The digital revolution and its ongoing impact on maritime industries](https://spire.com/wp-content/uploads/2020/02/An-Ocean-of-Data-The-digital-Revolution.pdf)
+* [Case study: TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
 * [Blog post: As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
 * [Blog post: Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
 
