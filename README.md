@@ -109,7 +109,7 @@ Here are a few of the resources I created for Spire:
 I'm far from a professional coder but I have strong general knowledge of software development and deployment. My best language is Python, but I've documented and written code examples for many languages, application frameworks, and types of APIs (with most of that experience coming from my time at New Relic, due to the full-stack breadth of their offerings). AI/LLM tools have dramatically improved my ability to write scripts/code to solve specific technical challenges. 
 
 Projects: 
-* A [personal coding project](www.linkedin.com/feed/update/urn:li:activity:7401999440531705856) of mine. Technologies include: Python, video processing libraries, open-source computer-vision libraries. I'm using Claude Code to write the code, based on detailed program specs (and many rounds of troubleshooting).
+* A [personal coding project](http://www.linkedin.com/feed/update/urn:li:activity:7401999440531705856) of mine. Technologies include: Python, video processing libraries, open-source computer-vision libraries. I'm using Claude Code to write the code, based on detailed program specs (and many rounds of troubleshooting).
 * I once wrote an original Python/Django web-based application that used a MySQL database. 
 
 ## Book projects 
