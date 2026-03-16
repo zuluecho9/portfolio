@@ -37,6 +37,10 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 > 
 > **- Mark Buchanan**, Sr. Director of Product Language at New Relic
 
+> "He's got a gift for conciseness where it matters most, and the UI content he contributed to New Relic was always written with the user needs foremost. He tenaciously ran down complex, often fraught terms, bringing together stakeholders from around the company to drive consensus." 
+> 
+> **- Michelle Fredette**, Senior Manager, Content Design, at New Relic
+
 > "In his time working on my team, I was struck by how quickly he ramped up on new problems and technical concepts."
 > 
 > **- Avtar Khalsa**, Sr. Software Dev Manager, Amazon Ads APIs
@@ -48,10 +52,6 @@ For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood).
 > "Zachary is one of the best doc writers I've had the pleasure of working with. He was able to stay up to date in the complex spaces of authentication, authorization, and user management and keep the docs accurate and user friendly."
 > 
 > **- Tori Meyer**, IAM Product Manager at New Relic
-
-> "He's got a gift for conciseness where it matters most, and the UI content he contributed to New Relic was always written with the user needs foremost. He tenaciously ran down complex, often fraught terms, bringing together stakeholders from around the company to drive consensus." 
-> 
-> **- Michelle Fredette**, Senior Manager, Content Design, at New Relic
 
 For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/details/recommendations).
 
