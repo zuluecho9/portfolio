@@ -59,6 +59,7 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 
 - [Tech writing examples](#tech-writing-examples)  
 - [Content marketing examples](#content-marketing-examples)
+- [Instructional videos](#instructional-videos)
 - [Coding/scripting experience](#coding-and-scripting-experience)
 - [Print/ebook books](#book-projects)
 - [Investigative journalism](#journalism) 
@@ -103,6 +104,12 @@ Here are a few of the resources I created for Spire:
 * [Blog post: As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
 * [Blog post: Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
 
+## Instructional videos
+
+I have a video/film degree and am a former commercial video producer. Here are a few instructional video projects I've worked on:
+
+* [Get to know the New Relic platform](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/introduction-new-relic-platform). This was a video I made towards the end of my 7.5 years at the observability company New Relic, aiming to give people a quick, useful overview of how to use and navigate various sections of the product. Making videos about how the UI works can be a challenge, due to the simple fact that things often change; this means that it can be hard to justify spending much time on the videos, knowing they will likely need to be redone again soon, and that in turn means that often the videos just don't get made. This video was an attempt to show that us tech writers could fairly quickly produce a video about the UI, and that it didn't need to be perfect to be highly useful to customers. I intentionally scripted and recorded this video quite quickly, just in a few hours, to show to the team that this could be done. If we had a test case of how easy it could be, then we wouldn't be so scared of remaking them in future, and it would encourage us to do more. Also, there is a lot of skill in wording things in the video in future-proofed ways: for example, speaking in broad terms about the features and avoiding granular discussions, or maybe even specifically addressing the fact that the granular details may change over time, these kinds of things.
+* [A video examining a deceptive fraud in the behavior/psychology space](https://www.youtube.com/watch?v=gsOmOonPTl0). For my podcast, I have sometimes done more in-depth video productions. I include this one to showcase some of my video production/editing skills. 
 
 ## Coding and scripting experience 
 
