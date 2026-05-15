@@ -18,14 +18,14 @@ I'm an experienced technical writer and all-around communicator, skilled at turn
 - A content marketer and strategist for tech/software companies who has written dozens of marketing resources (white papers, case studies, blog posts, more) 
 - An instructional designer who has written and overseen production of 100+ e-learning courses
 - An amateur coder comfortable using AI/LLM tools to solve problems and complete [projects](#coding-and-scripting-experience)
-- A video producer who has written, directed, and edited dozens of commercial video projects
-- An independent investigator and journalist whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
+- An audio/video producer who has written, directed, and edited dozens of commercial video projects, and who hosts a podcast that gets 65K+ views/listens per month
+- An independent journalist and investigator whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
 - An author and publisher of some successful non-fiction/how-to books (48,000+ sold)
 - A writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content with an audience of 3M+ 
 
 What ties these diverse endeavors together is my passion for clear, accurate, and engaging communication. 
 
-For details about my roles, see [my LinkedIn](https://linkedin.com/in/zelwood). 
+For details about my formal roles, see [my LinkedIn](https://linkedin.com/in/zelwood). 
 
 ## Featured testimonials
 
@@ -132,8 +132,8 @@ These projects include:
 
 ## Journalism and podcasting
 
-My independent investigative journalism has exposed fraud, deceptive social media accounts, and liars and propagandists of various sorts. Notable projects include my exposé of behavior “expert” Chase Hughes (with the [first episode](https://www.youtube.com/watch?v=4t1DMxmqJOk) getting 149K+ views on YouTube), my research into foreign-origin fake Facebook accounts (featured in [The New York Times](https://www.nytimes.com/2017/11/03/technology/facebook-fake-accounts.html) and [The Washington Post](https://www.washingtonpost.com/business/economy/when-a-stranger-takes-your-face-facebooks-failed-crackdown-on-fake-accounts/2018/05/04/d3318838-4f1a-11e8-af46-b1d6dc0d9bfe_story.html)), and my investigation into the anonymous fake-news creator known as True Pundit (mentioned in [a Buzzfeed article by Craig Silverman](https://www.buzzfeednews.com/article/craigsilverman/revealed-notorious-pro-trump-misinformation-site-true)). I’m currently working on an exposé of a security-related product whose claims of being hard to deceive/cheat I've shown to be egregiously false. [See more examples of my investigative journalism](https://apokerplayer.medium.com/zach-elwoods-investigations-into-deceptive-online-activity-60c3b11c2774). 
+My independent investigative journalism has exposed fraud, deceptive social media accounts, and liars and propagandists of various sorts. Notable projects include my exposé of behavior “expert” Chase Hughes (with the [first episode](https://www.youtube.com/watch?v=4t1DMxmqJOk) getting 149K+ views on YouTube), my research into foreign-origin fake Facebook accounts (featured in [The New York Times](https://www.nytimes.com/2017/11/03/technology/facebook-fake-accounts.html) and [The Washington Post](https://www.washingtonpost.com/business/economy/when-a-stranger-takes-your-face-facebooks-failed-crackdown-on-fake-accounts/2018/05/04/d3318838-4f1a-11e8-af46-b1d6dc0d9bfe_story.html)), and my investigation into the anonymous fake-news creator known as True Pundit (mentioned in [a Buzzfeed article by Craig Silverman](https://www.buzzfeednews.com/article/craigsilverman/revealed-notorious-pro-trump-misinformation-site-true)). I’m currently working on an exposé of a security-related product, which claims to be hard to deceive/cheat but which I've shown is quite easy to cheat. [See more examples of my investigative journalism](https://apokerplayer.medium.com/zach-elwoods-investigations-into-deceptive-online-activity-60c3b11c2774). 
 
-Another journalistic endeavor of mine is my [psychology-focused podcast](https://behavior-podcast.com), for which I've interviewed more than 170 people. I've interviewed a wide variety of people, including psychology researchers, law enforcement and legal professionals, philosophers, conflict resolution professionals, militant protesters, and more). As smaller podcasts go, it's fairly successful; typical episodes get between 7-9,000 listens in the first month of release, with some video-intensive episodes getting tens of thousands of views on [YouTube](https://www.youtube.com/peoplewhoreadpeoplepodcast).
+Another journalistic endeavor of mine is my [psychology-focused podcast](https://behavior-podcast.com). I've interviewed 170+ people from a wide variety of backgrounds, including psychology and behavior researchers, law enforcement and legal professionals, conflict resolution experts, and more. As smaller podcasts go, it's fairly successful; typical episodes get between 8-12K listens in the first month of release, with some [video-intensive episodes](https://www.youtube.com/watch?v=gsOmOonPTl0) getting tens of thousands of views on YouTube (check out [my YouTube videos](https://www.youtube.com/peoplewhoreadpeoplepodcast)).
 
-For my political polarization-related work, I've had [op-eds published](https://www.american-anger.com/media-press) in large news outlets including The Hill and Newsweek. I've also ghostwritten op-eds for other people that have appeared in major news outlets. 
+For my political polarization-related work, I've had [op-eds published](https://www.american-anger.com/media-press) in large news outlets including The Hill and Newsweek. I've also ghostwritten op-eds for colleagues, with some of those appearing in major news outlets. 
