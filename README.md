@@ -29,7 +29,7 @@ For details about my formal roles, see [my LinkedIn](https://linkedin.com/in/zel
 
 ## Featured testimonials
 
-> "Zach is literally the most productive technical writer I've ever worked with. If you're looking for greatness, get in touch with him."
+> "Zach is literally the most productive technical writer I've ever worked with. [He also has] a knack for tackling weird and unwieldy projects. If you're looking for greatness, get in touch with him."
 > 
 > **— Austin Schaefer**, Head of Dev Docs at Shopify, former Director of Documentation at New Relic ([see original post](https://www.linkedin.com/feed/update/urn:li:activity:7396594695725879296))
 
