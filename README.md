@@ -78,6 +78,7 @@ Examples:
 
 * [Hydrolix log storage](#hydrolix-log-storage)
 * [Spire satellite data](#spire-satellite-data)
+* [Datadog](#datadog-an-observability-product) 
 
 ### Hydrolix log storage
 
@@ -103,6 +104,12 @@ Here are a few of the resources I created for Spire:
 * [Case study: TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
 * [Blog post: As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
 * [Blog post: Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
+
+### Datadog, an observability product 
+
+One of my first roles in the software space was writing blog posts for the observability company Datadog in 2015. Here's one example that is still live (the others seem to have been deleted): 
+
+* A [ServiceNow integration blog post](https://www.datadoghq.com/blog/create-servicenow-tickets-from-datadog) 
 
 ## Instructional videos
 
