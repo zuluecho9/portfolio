@@ -4,7 +4,7 @@
 
 ---
 
-[![Zach Elwood linkedin header image](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)](https://github.com/zuluecho9/portfolio/blob/main/Zach-image-header.png)
+[![Zach Elwood linkedin header image](Zach-image-header.png)
 
 ## What's this? 
 
