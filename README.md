@@ -1,6 +1,6 @@
-# Zach Elwood
+# Zachary Elwood
 
-**Technical Writer | Communications Specialist | Content Marketing | Journalist**
+**Research · Communication · Project management**
 
 ---
 
@@ -8,24 +8,26 @@
 
 ## What's this? 
 
-This is a portfolio for [Zachary Elwood](https://linkedin.com/in/zelwood)'s technical writing/communication career.
+This is a portfolio for Zachary Elwood's writing- and communications-related work.
 
 ## About me
 
-I'm an experienced technical writer and all-around communicator, skilled at turning complex concepts into clear, engaging stories and instructions, and at seeing large projects through to completion. I am: 
+My career has focused on communication but I see myself mostly as a problem solver. I figure out what success looks like for a project, and I work efficiently and creatively toward that goal. This explains my success in a wide range of communication-related endeavors. Some highlights from my career: 
 
-- An experienced technical writer (Lead Tech Writer at the full-stack observability company New Relic, API tech writer for Amazon Ads APIs) comfortable in complex, fast-moving environments and at using git-based workflows
-- A content marketer and strategist for tech/software companies who has written dozens of marketing resources (white papers, case studies, blog posts, more) 
-- An instructional designer who has written and overseen production of 100+ e-learning courses
-- An amateur coder comfortable using AI/LLM tools to solve problems and complete [projects](#coding-and-scripting-experience)
-- An audio/video producer who has written, directed, and edited dozens of commercial video projects, and who hosts a podcast that gets 65K+ views/listens per month
-- An independent journalist and investigator whose research and writing has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, *The Hill*, *Newsweek*, and more
-- An author and publisher of some successful non-fiction/how-to books (48,000+ sold)
-- A writer of a non-profit newsletter that had 140K+ subscribers, and writer/reviewer of social media content with an audience of 3M+ 
+- I've held Senior, Lead, and other high-impact technical writing roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
+- I've created dozens of [content marketing](#content-marketing-examples) resources (white papers, case studies, blog posts, more) for tech companies (Datadog, Hydrolix, Spire Global, more).
+- As an instructional designer, I wrote, designed, and oversaw production of 100+ workforce training e-learning courses for industrial/manufacturing sectors.
+- I'm a former professional poker player whose books on poker tells have been translated into seven languages and sold 48K+ copies.
+- I host a psychology/behavior-focused podcast that gets 65K+ listens/views per month and has had 2.5M+ total listens/views. 
+- My investigative research has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*. Investigative work done for my podcast has received 100s of thousands of views/listens. 
+- I've had op-eds published in Newsweek, The Hill, and other outlets, and ghostwritten op-eds published in major outlets.
+- I worked as a producer/director for regional TV commercials in Savannah, Georgia, and for online commercial videos in Portland, Oregon. 
+- My [critically acclaimed work](https://www.american-anger.com/reviews) on political polarization led to me being headhunted by a non-profit that works to reduce polarization. For that role, I wrote a newsletter for a 150K+ subscriber list, wrote and reviewed social media content for a social audience of 3M+, and came up with guidelines and strategies for creating content on sensitive political topics.
+- As an amateur coder, I've designed and written original [programs](#coding-and-scripting-experience).
 
 What ties these diverse endeavors together is my passion for clear, accurate, and engaging communication. 
 
-For details about my formal roles, see [my LinkedIn](https://linkedin.com/in/zelwood). 
+For details about my professional roles, see [my LinkedIn](https://linkedin.com/in/zelwood). 
 
 ## Featured testimonials
 
