@@ -14,16 +14,16 @@ This is a portfolio for Zachary Elwood's writing- and communications-related wor
 
 My career has focused on communication but I see myself mostly as a problem solver. I figure out what success looks like for a project, and I work efficiently and creatively toward that goal. This explains my success in a wide range of communication-related endeavors. Some highlights from my career: 
 
-- I've held Senior, Lead, and other high-impact technical writing roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
+- I've held Senior, Lead, and other high-impact [technical writing](#tech-writing-examples) roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
 - I've created dozens of [content marketing](#content-marketing-examples) resources (white papers, case studies, blog posts, more) for tech companies (Datadog, Hydrolix, Spire Global, more).
-- As an instructional designer, I wrote, designed, and oversaw production of 100+ workforce training e-learning courses for industrial/manufacturing sectors.
+- As an instructional designer, I wrote, designed, and oversaw production of 100+ workforce training e-learning courses in industrial and manufacturing sectors.
 - I'm a former professional poker player whose books on poker tells have been translated into seven languages and sold 48K+ copies.
 - I host a psychology/behavior-focused podcast that gets 65K+ listens/views per month and has had 2.5M+ total listens/views. 
-- My investigative research has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*. Investigative work done for my podcast has received 100s of thousands of views/listens. 
+- My independent investigative research has been featured in *The New York Times*, *The Washington Post*, *Buzzfeed*, and elsewhere. Investigative work I've done for my podcast has received 100s of thousands of views/listens. 
 - I've had op-eds published in Newsweek, The Hill, and other outlets, and ghostwritten op-eds published in major outlets.
-- I worked as a producer/director for regional TV commercials in Savannah, Georgia, and for online commercial videos in Portland, Oregon. 
-- My [critically acclaimed work](https://www.american-anger.com/reviews) on political polarization led to me being headhunted by a non-profit that works to reduce polarization. For that role, I wrote a newsletter for a 150K+ subscriber list, wrote and reviewed social media content for a social audience of 3M+, and came up with guidelines and strategies for creating content on sensitive political topics.
-- As an amateur coder, I've designed and written original [programs](#coding-and-scripting-experience).
+- I was a producer/director for regional TV commercials in Savannah, Georgia, and for online commercial videos in Portland, Oregon. 
+- My [critically acclaimed work](https://www.american-anger.com/reviews) on toxic political polarization led to me being headhunted by a non-profit focused on that problem. For them, I wrote a weekly newsletter for a 150K+ subscriber list, wrote and reviewed content for a social media team with 3M+ followers, and came up with guidelines and strategies for creating content on sensitive political topics.
+- I'm an amateur coder who has designed and written original [programs](#coding-and-scripting-experience).
 
 What ties these diverse endeavors together is my passion for clear, accurate, and engaging communication. 
 
@@ -33,7 +33,7 @@ For details about my professional roles, see [my LinkedIn](https://linkedin.com/
 
 > "Zach is literally the most productive technical writer I've ever worked with. [He also has] a knack for tackling weird and unwieldy projects. If you're looking for greatness, get in touch with him."
 > 
-> **— Austin Schaefer**, Head of Dev Docs at Shopify, former Director of Documentation at New Relic ([see original post](https://www.linkedin.com/feed/update/urn:li:activity:7396594695725879296))
+> **— Austin Schaefer**, Head of Dev Docs at Shopify, former Director of Docs at New Relic ([see original post](https://www.linkedin.com/feed/update/urn:li:activity:7396594695725879296))
 
 > "If you're looking to add a technical writer capable of untangling complex ideas and want someone with an unshakeable work ethic who can get tough jobs done for you, talk to Zach. You'll be glad you did."
 > 
@@ -66,11 +66,9 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 - [Print/ebook books](#book-projects)
 - [Investigative journalism](#journalism-and-podcasting) 
 
-(Other sections coming soon...)
-
 ## Tech writing examples
 
-[See my tech writing examples](https://github.com/zuluecho9/portfolio/blob/main/tech-writing-examples.md). 
+[See my tech writing examples](tech-writing-examples.md). 
 
 ## Content marketing examples
 
