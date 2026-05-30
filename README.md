@@ -14,8 +14,8 @@ This is a portfolio for Zachary Elwood's writing- and communications-related wor
 
 My career has focused on writing and communication but I think my main strengths are creative problem solving and intelligent project management. I figure out what success looks like for a project, and I work efficiently and creatively toward that goal. This explains my success in a wide range of communication-related endeavors. Some highlights from my career: 
 
-- I've held Senior, Lead, and other high-impact [technical writing](#tech-writing-examples) roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
-- I've created dozens of [content marketing](#content-marketing-examples) resources (white papers, case studies, blog posts, more) for tech companies (Datadog, Hydrolix, Spire Global, more).
+- I've held Senior, Lead, and other high-impact [technical writing](#tech-writing) roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
+- I've created dozens of [content marketing](#content-marketing) resources (white papers, case studies, blog posts, more) for tech companies (Datadog, Hydrolix, Spire Global, more).
 - As an instructional designer, I wrote, designed, and oversaw production of 100+ workforce training e-learning courses in industrial and manufacturing sectors.
 - I'm a former professional poker player whose books on poker tells have been translated into seven languages and sold 48K+ copies.
 - I host a psychology/behavior-focused podcast that gets 65K+ listens/views per month and has had 2.5M+ total listens/views. 
@@ -62,22 +62,23 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 
 ## Portfolio sections
 
-- [Tech writing](#tech-writing-examples)  
-- [Content marketing](#content-marketing-examples)
+- [Tech writing](#tech-writing)  
+- [Content marketing](#content-marketing)
 - [Video work](#instructional-videos)
 - [Coding/scripting experience](#coding-and-scripting-experience)
 - [Print/ebook books](#book-projects)
 - [Investigative journalism](#journalism-and-podcasting) 
 
-## Tech writing examples
+## Tech writing
 
-Resources: 
+My tech-writing related resources: 
 * [My tech writing portfolio](tech-writing-examples.md)
 * [Thought-leadership-esque thoughts on tech writing](tech-writing-thoughts.md)
+* [Testimonials](#featured-testimonials)
 
-## Content marketing examples
+## Content marketing
 
-Over the years, I’ve done a lot of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, website copy projects, and more. I think I excel at crafting technical marketing content that is perceived by a savvy, discerning audience as genuinely knowledgable and helpful, and not overtly promotional. 
+Over the years, I’ve done a good amount of freelance content marketing work for tech companies. This work has included blog posts, white papers, case studies, website copy projects, and more. I think I excel at crafting technical marketing content that is perceived by a savvy, discerning audience as genuinely knowledgable and helpful, and not overtly promotional. 
 
 Content marketing examples:
 
