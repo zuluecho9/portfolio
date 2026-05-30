@@ -1,0 +1,26 @@
+![Zach Elwood linkedin header image](Zach-header-image.png)
+
+# Thoughts on documentation and other instructional communication
+
+I'm Zach Elwood. As part of my [portfolio](/portfolio), these are some thoughts of mine on technical writing and documentation. 
+
+I'll be honest and say that I think there is a lot bullshit in the tech writing thought-leadership spaces (and that's just a subset of the bullshit in thought leadership in general). This makes me hesitant to contribute my thoughts. I find that there are many people who write a lot of seemingly deep and complex words about the craft of technical writing without saying much that has practical value. I think there are many people who seem focused on creating a perception of expertise, which sometimes involves making the topic/domain seem more complex than it is. Again, these are just common aspects of "thought leadership" in general, not something specific to tech writing. And of course there is some highly valuable and helpful thought leadership. 
+
+In general, I think strong, effective instructional communication is sometimes surprisingly easy to create, and sometimes surprisingly difficult to create. This fact I think helps explain the multitude of perspectives on it, with some non-technical-writers thinking "I can do that; it's not that hard," and some technical writers thinking "It takes a specialist to do this well." Both takes can be accurate, depending on the situation and specific project. 
+
+What makes documentation effective? Put simply, it solves an audience's problems; it helps them do something. And to help an audience, one must know the domain well enough to understand that audience's common challenges and frustrations. This helps explain why effective documentation will sometimes be an easy task. A non-writer who knows a domain and customer audience well could theoretically create a simple and quickly written bulletpoint list that is a huge help to that audience. Whereas a professional writer who doesn't know a domain or an audience well might produce highly readable and organized content that doesn't speak to or help that audience at all. 
+
+This is what I mean by saying that creating effective documentation is sometimes quite easy. 
+
+But it can also be difficult. It can be hard to know a given domain well, especially if it's highly complex, and it can be hard to speak in a knowledgeable, accurate, and trustworthy way about it. It can be hard to get to know the particular frustrations and challenges of a given audience in that domain. It can be hard to catch errors in documentation; I've seen docs get rounds of reviews from expert SMEs and still contain major errors and contradictory points. People not well versed in creating documentation will sometimes struggle with how to organize concepts, the flow of ideas, and the overall site navigation and information architecture (these aren't always major deals but they can be). 
+
+This is what I mean by saying that creating effective documentation is sometimes very hard. 
+
+The fact that effective documentation is sometimes easy to create and sometimes hard to create also helps us understand the very divergent views on the topic of AI tools, and how those tools are impacting documentation-related roles. AI tools will sometimes do a fine job; even when they're doing a far-from-great job, that may be good enough for a company. And often, a domain expert will be able to edit and review the generated text and improve it, and do other docs-related work (e.g., site organization; diagram creation, etc.) that is pretty decent. And, on the other side of the argument, it's also true that AI-generated communications will often be quite bad, and have assorted misunderstandings and hallucinations, and it's true that reviewers will often not be motivated or able to catch major problems in those resources (just as that happens without AI), and it's true if you build systems on bad foundational documentation, you'll have a big problem. 
+
+🎵 I've looked at documentation from both sides now. 🎵 
+
+# Other "thought leadership"
+
+(coming soon)
+
