@@ -6,11 +6,11 @@ I'm Zach Elwood. For my [portfolio](/portfolio), these are some work examples fr
 
 # About my career and the examples chosen
 
-All of my examples come from my 7.5 years at New Relic. If you're not familiar with New Relic, it's a full-stack observability product that has more than 700 integrations with various application- and infrastructure-related frameworks, platforms, and services. The projects I worked on spanned multiple technologies, programming languages, cloud platforms, types of APIs, and data models. It was a great training ground for becoming comfortable with all aspects of application coding, infrastructure, deployment, and monitoring. 
+All of my examples below come from my 7.5 years at New Relic, which is a full-stack observability platform with more than 700 integrations with various application and infrastructure frameworks, platforms, and services. The projects I worked on spanned multiple technologies, programming languages, cloud platforms, types of APIs, and data models. New Relic was a fantastic training ground for becoming comfortable with all aspects of application coding, infrastructure, deployment, and monitoring. 
 
 My last title at New Relic was Lead Technical Writer, a role above Senior. For much of my time there, I was the go-to writer for the more complex, large, and important docs projects. I was known for high quality and high productivity; for proof of that, you can see my [testimonials](/portfolio/#featured-testimonials) and [my standing in their docs site GitHub commits](https://github.com/newrelic/docs-website/graphs/contributors?all=1).
 
-In 2025, I was a tech writer role in Amazon's Ads API department. My official title there was Programmer Writer, which reflected the role requiring strong API/coding chops. Unfortunately I was only there for four months when the whole docs team was cut as part of widespread Amazon layoffs. My main project during that time was a substantial rework of an internal knowledge base for a large ecosystem of API builders and consumers, but I can't share that example publicly. 
+In 2025, I was a tech writer in Amazon's Ads API department. My official title there was Programmer Writer, which reflected the role requiring strong API/coding chops. Unfortunately I was only there for four months when the whole docs team was cut as part of widespread Amazon layoffs. My main project during that time was a substantial rework of an internal knowledge base for a large ecosystem of API builders and consumers, but I can't share that example publicly. 
 
 I think it can be difficult to judge the quality of documentation unless one knows the domain well. Documentation can look pretty and neat, and be useless if it's inaccurate, or if it just isn't helpful to a given audience. And, on the flip side, documentation can be quite simple and unpretty and yet be very successful (e.g., a simple bulletpoint list that is highly focused on addressing an audience's problems). The examples projects I've chosen are ones I'm very proud of and ones that got a lot of accolades, but I fear that their quality can be easy to miss if one doesn't know the domain well. If I'm applying for a job with you, I'd love a chance to walk you through the work and reasoning that went into these projects.
 
@@ -18,17 +18,30 @@ I think it can be difficult to judge the quality of documentation unless one kno
 
 Here are quick links to my project examples: 
 
-- [Example 1: A four-part implementation guide](#example-1-new-relic-implementation-guide) 
-- [Example 2: Telemetry data concepts](#example-2-understanding-telemetry-data)  
-- [Example 3: Pricing/billing changes](#example-3-pricingbilling-and-accountuser-model-updates)
-- [Example 4: An API overview](#example-4-overview-of-new-relic-apis)
-- [Example 5: Distributed tracing API](#example-5-distributed-tracing-api)  
-- [Example 6: New Relic's query language](#example-6-querying-data-with-nrql)  
-- [Example 7: Go language agent APIs](#example-7-go-language-monitoring-agent-apis)  
+- [Example 1: Docs team style guide work](#example-1-docs-team-playbooks-templates-and-style-guide-work)
+- [Example 2: A four-part implementation guide](#example-2-new-relic-implementation-guide) 
+- [Example 3: Telemetry data concepts](#example-3-understanding-telemetry-data)  
+- [Example 4: Pricing/billing changes](#example-4-pricingbilling-and-accountuser-model-updates)
+- [Example 5: An API overview](#example-5-overview-of-new-relic-apis)
+- [Example 6: Distributed tracing API](#example-6-distributed-tracing-api)  
+- [Example 7: New Relic's query language](#example-7-querying-data-with-nrql)  
+- [Example 8: Go language agent APIs](#example-8-go-language-monitoring-agent-apis)  
 
 ---
 
-# Example 1: New Relic implementation guide
+# Example 1: Docs team playbooks, templates, and style guide work
+
+As a Senior and Lead Tech Writer at New Relic, one area of my responsibility was creating processes and procedures to help the docs team, which had 12 writers at its height, consistently put out high-quality documentation. I was a major and frequent contributor to our public [style guide](https://github.com/newrelic/docs-website/tree/develop/src/content/docs/style-guide) and our internal playbooks and templates. Here are some specific resources I created for our docs team:  
+
+* [A guide to creating videos](https://github.com/newrelic/docs-website/blob/develop/src/content/docs/style-guide/images/create-videos.mdx): for an effort to get our writers more comfortable creating videos, I researched and wrote this guide. I was a good choice for this project due to my video production background. ([See an intro-to-the-platform video I made](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/introduction-new-relic-platform).)
+* [A guide to documenting new UI components](https://github.com/newrelic/docs-website/blob/develop/src/content/docs/style-guide/writing-strategies/guidelines-documenting-ui.mdx): This was probably the team resource I was most proud of. As a team, we were struggling with quality and consistency when new UI sections were released. Two similar UI pages might receive totally different docs treatment, depending on who wrote it. I created this guide to help the team have a consistent philosophy and approach for documentation when new UI features rolled out.
+* [A guide to writing GraphQL docs](https://github.com/newrelic/docs-website/blob/develop/src/content/docs/style-guide/word-choice/nerdgraph-doc-guidelines.mdx): For much of my time at New Relic, I was the main writer for more technical data- and API-related docs. I wrote this guide to help our team get better at documenting GraphQL API features, and just talking about that API in passing.
+* [A guide to writing an install doc](https://github.com/newrelic/docs-website/blob/develop/src/content/docs/style-guide/writing-docs/article-templates/intro-branch-install-doc.mdx): This was a guide to help writers use a specific component in a doc: what we called a "branched install" component, which allowed readers to select different choices and be shown different install instructions depending on their choices.
+* [A guide to understanding the docs site structure and navigation](https://github.com/newrelic/docs-website/blob/develop/src/content/docs/style-guide/writing-docs/processes-procedures/understand-edit-docs-site-structure.mdx): When we switched from a Drupal CMS to a GitHub-based static site implementation, we were struggling with newer writers being confused about basic aspects of how to edit the site and its navigation. I wrote this guide to help the team improve their understanding of the docs site architecture and navigation, its file/folder storage, and how those two dimensions related.
+
+> A note about my GitHub commits for these: I wrote all these resources mentioned but only some of them show my GitHub commits. This is because I wrote some of them before mid-2020, when the docs site was moved to GitHub.  
+
+# Example 2: New Relic implementation guide
 
 For one of my final large projects at New Relic, I created a comprehensive four-part implementation guide to help new customers set up the platform efficiently and start getting value quickly. This was challenging due to the sheer number of New Relic features and the wide range of customer sizes and architectures, which made it difficult to define a single setup path that worked for everyone. That complexity was a key reason such a guide had never been created before despite being a long-standing gap.
 
@@ -93,7 +106,7 @@ We recommend using a spreadsheet to plan out your users' New Relic responsibilit
 
 ---
 
-# Example #2: Understanding telemetry data
+# Example #3: Understanding telemetry data
 
 Despite New Relic being a data-centric company, several years into their existence they still had no public doc explaining the various types of telemetry data they collected (metrics, events, logs, traces) or how that data was handled by the platform. It had been in the docs backlog for years to create such a doc but, surprisingly, it had never been done. Based on my own frustrations trying to understand these areas, as someone new to the observability space, and based on seeing a lot of customer confusion, I made the case that I should work on this much-needed doc.
 
@@ -165,7 +178,7 @@ Some of our other metric data types are exposed as dimensional metrics and are a
 
 ---
 
-# Example #3: Pricing/billing and account/user model updates
+# Example #4: Pricing/billing and account/user model updates
 
 This project was probably my most important accomplishment during my time at New Relic: overhauling the docs to reflect substantial changes to the pricing model and the account/user model. These were core changes to the platform that impacted many aspects of the customer experience; these changes impacted hundreds of docs. They were also touchy and sensitive changes. Customers can be easily frustrated when there is confusion over how their billing works, or how to manage/provision users (which affects cost). 
 
@@ -238,7 +251,7 @@ To read more of this pricing overview doc, see [this 2021 version of the doc](ht
 
 ---
 
-# Example #4: Overview of New Relic APIs
+# Example #5: Overview of New Relic APIs
 
 By the time I became Senior Tech Writer at New Relic, I was the go-to person for docs pertaining to the company’s core APIs and their data model. This was largely due to the time I’d spent working through the intricacies of how New Relic handled data and how different teams used data terminology.
 
@@ -275,7 +288,7 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 
 ---
 
-# Example #5: Distributed tracing API
+# Example #6: Distributed tracing API
 
 One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
@@ -358,7 +371,7 @@ The following explains how to send a standard (non-[Infinite Tracing](https://do
 
 ---
 
-# Example #6: Querying data with NRQL
+# Example #7: Querying data with NRQL
 
 One project of mine was to improve the New Relic query language (NRQL) docs. NRQL was a SQL-like query language customers could use to query their observability data via the UI or via an API. When I started, the NRQL docs were hard to get started with: they didn’t do a good job explaining at a high level why you’d want to use NRQL, what the major use cases were, and how to quickly get started with it. I created a doc that would make people feel comfortable getting started and that would hopefully provide some value quickly.
 
@@ -393,7 +406,7 @@ You can use NRQL across the platform to access your data. Those places include:
 
 ---
 
-# Example #7: Go language monitoring agent APIs
+# Example #8: Go language monitoring agent APIs
 
 New Relic’s core feature is application performance monitoring (APM). This was handled by installable agents available for several coding languages (Go, Ruby, Java, .NET, Python, PHP, Node.js). I worked on all of these docs over the years, with a special focus on Go, .NET, and Python. Work in these areas included documenting installation, configuration, data explanations, common use cases, and code snippets. 
 
@@ -441,8 +454,6 @@ If the work is happening in a different goroutine from where the transaction sta
 
 # More samples
 
-If you’d like to see more writing samples from my time at New Relic, let me know. I have many more I could share. 
+If you’d like to see more writing samples, let me know. I have many more I could share. 
 
-A note about my time at Amazon: unfortunately, most of my work for the Amazon Ads API department was spent on internal docs for API designers and API consumers, and I can't share this publicly. That's unfortunate, as I was proud of helping a large internal audience build and consume APIs more efficiently. 
-
-You can [find my GitHub commits here](https://github.com/zuluecho9?tab=overview&from=2023-12-01&to=2023-12-31). Those commits are from my final 2.5 years or so at New Relic, ending in late 2023. 
+You can [find my New Relic GitHub commits here](https://github.com/zuluecho9?tab=overview&from=2023-12-01&to=2023-12-31). Those commits are from my final 2.5 years or so at New Relic, ending in late 2023. 
