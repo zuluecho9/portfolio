@@ -20,8 +20,8 @@ Here are quick links to my project examples:
 
 - [Example 1: Docs team style guide work](#example-1-docs-team-playbooks-templates-and-style-guide-work)
 - [Example 2: Pricing/billing model overhaul](#example-2-pricingbilling-model-overhaul)
-- [Example 3: A four-part implementation guide](#example-2-new-relic-implementation-guide) 
-- [Example 4: Telemetry data concepts](#example-3-understanding-telemetry-data)  
+- [Example 3: A four-part implementation guide](#example-3-new-relic-implementation-guide) 
+- [Example 4: Telemetry data concepts](#example-4-understanding-telemetry-data)  
 - [Example 5: An API overview](#example-5-overview-of-new-relic-apis)
 - [Example 6: Distributed tracing API](#example-6-distributed-tracing-api)  
 - [Example 7: New Relic's query language](#example-7-querying-data-with-nrql)  
