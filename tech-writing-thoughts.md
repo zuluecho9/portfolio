@@ -8,7 +8,7 @@ I think there is a lot bullshit in the tech writing thought-leadership space (an
 
 My fear of being perceived by others in the same way I've perceived some thought-leadership-writing people has made me hesitant to do much public writing on it. But being out of work has led me to try to gain some attention and communicate to employers my domain knowledge. You can rest assured that my thought leadership is aimed primarily at increasing my salary; I don't have interest in being perceived as exceptionally wise  in this space. That transparency might make it all more trustworthy, or maybe not.  
 
-# What makes effective documentation? Is creating good documentation hard or easy?
+# What makes documentation good? Are good docs hard or easy to create?
 
 In general, I think strong, effective instructional communication is sometimes surprisingly easy to create, and sometimes surprisingly difficult to create. This fact I think helps explain the multitude of perspectives on it, with some non-technical-writers thinking "I can do that; it's not that hard," and some technical writers thinking "It takes a specialist to do this well." Both takes can be accurate, depending on the situation and specific project. It also helps us understand different and opposed takes on how AI tools are impacting these jobs. 
 
