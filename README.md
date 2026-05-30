@@ -23,7 +23,7 @@ My career has focused on writing and communication but I think my main strengths
 - I've had op-eds published in Newsweek, The Hill, and other outlets, and I've ghostwritten op-eds published in major outlets.
 - Early in my career, I was a producer/director for regional cable TV commercials in Savannah, Georgia, and for online commercial videos in Portland, Oregon. 
 - My [respected work](https://www.american-anger.com/reviews) on toxic political polarization led to me being headhunted by a non-profit working on that problem. For them, I wrote a weekly newsletter for a 150K+ subscriber list, wrote and reviewed social content for a team with 3M+ followers, and crafted guidelines and training for creating content on highly sensitive topics.
-- I've built a personal social media following of 80K+ across all channels. I've also worked closely with a team (the non-profit mentioned above) that built their social following from 0 to 3M+ in 4 years.
+- I've built a personal social media following of 80K+ across all channels. I've also worked closely with a social team (at the non-profit mentioned above) that built their following from 0 to 3M+ in 3 years.
 - I'm an amateur coder who has designed and written original [programs](#coding-and-scripting-experience).
 
 What ties these diverse endeavors together is my dedication to clear, accurate, and engaging communication, and intelligent project management. 
