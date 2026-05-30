@@ -1,3 +1,5 @@
+![Zach Elwood linkedin header image](Zach-header-image.png)
+
 # Tech writing examples
 
 I'm Zach Elwood. For my [portfolio](readme.md), these are some project examples from my tech writing career. 
