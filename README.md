@@ -71,7 +71,9 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 
 ## Tech writing examples
 
-[See my tech writing portfolio](tech-writing-examples.md). 
+Resources: 
+* [My tech writing portfolio](tech-writing-examples.md)
+* [Thought-leadership-esque thoughts on tech writing](tech-writing-thoughts.md)
 
 ## Content marketing examples
 
