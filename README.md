@@ -59,55 +59,53 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 
 ## Portfolio sections
 
-- [Tech writing examples](#tech-writing-examples)  
-- [Content marketing examples](#content-marketing-examples)
-- [Instructional videos](#instructional-videos)
+- [Tech writing](#tech-writing-examples)  
+- [Content marketing](#content-marketing-examples)
+- [Video work](#instructional-videos)
 - [Coding/scripting experience](#coding-and-scripting-experience)
 - [Print/ebook books](#book-projects)
 - [Investigative journalism](#journalism-and-podcasting) 
 
 ## Tech writing examples
 
-[See my tech writing examples](tech-writing-examples.md). 
+[See my tech writing portfolio](tech-writing-examples.md). 
 
 ## Content marketing examples
 
-Over the years, I’ve done quite a bit of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, guides, and the like. The goals were generally a) to gather online traffic/leads, and b) to communicate expertise and trustworthiness in the chosen domain.
+Over the years, I’ve done a lot of freelance content marketing work for various tech companies. This work has included blog posts, white papers, case studies, website copy projects, and more. I think I excel at crafting technical marketing content that is perceived by a savvy, discerning audience as genuinely knowledgable and helpful, and not overtly promotional. 
 
-Examples:
+Content marketing examples:
 
-* [Hydrolix log storage](#hydrolix-log-storage)
-* [Spire satellite data](#spire-satellite-data)
+* [Hydrolix](#hydrolix-log-storage)
+* [Spire Global](#spire-satellite-data)
 * [Datadog](#datadog-an-observability-product) 
 
-### Hydrolix log storage
+### Hydrolix 
 
-Hydrolix is a streaming data-lake solution designed for log storage and analytics. In 2025, I wrote several blog posts for them aimed at gathering more leads from companies with
-high-volume logs. This included a focus on the security-related benefits of advanced log parsing and analytics. This work involved me working side-by-side with marketing team members to arrive at optimal SEO approaches for titles and keywords.
+Hydrolix is a streaming data-lake solution designed for log storage and analytics. In 2025, I wrote several blog posts for them aimed at gathering more leads from companies with high-volume logs. This included a focus on the security-related benefits of long-term log storage and analysis. This work involved me working side-by-side with marketing team members to arrive at optimal SEO approaches for titles and keywords.
 
-Pieces I wrote for Hydrolix:
+Hydrolix pieces I wrote:
 
 * [Unlocking threat-hunting insights from high-volume network logs](https://hydrolix.io/blog/threat-hunting-insights/)
 * [Log management: A detailed guide](https://hydrolix.io/blog/log-management-guide/)
 * [Best practices for monitoring CDN security](https://hydrolix.io/blog/cdn-security-monitoring-best-practices/)
 
+### Spire Global
 
-### Spire satellite data
+Spire Global is a satellite company that sells access to its geographic satellite data. Between 2018 and 2021, I wrote roughly a dozen pieces for them, aimed at demonstrating thought leadership in several domains, including agricultural, maritime navigation/transport, and aviation. This work involved a lot of research on my part: learning how satellite data was being used, and might theoretically be used, to improve various systems and workflows.
 
-Spire is a satellite company and a satellite data company. Between 2018 and 2021, I wrote roughly a dozen pieces for them, aimed at demonstrating expertise and thought leadership in several domains, including agriculture applications, maritime management applications, and aviation applications. This work involved a lot of research on my part: learning how satellite data was being used, and might be used, to improve various systems and workflows.
-
-I also helped them overhaul their website and write copy for all major components/sections of their new site (although the site has been overhauled again since I did that work).
+I also helped them overhaul their website and write copy for all major components/sections of their new site (although the site has been overhauled again since then).
 
 Here are a few of the resources I created for Spire:
 
-* [White paper: An Ocean of Data: The digital revolution and its ongoing impact on maritime industries](https://spire.com/wp-content/uploads/2020/02/An-Ocean-of-Data-The-digital-Revolution.pdf)
-* [Case study: TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
-* [Blog post: As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
-* [Blog post: Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
+* White paper: [An Ocean of Data: The digital revolution and its ongoing impact on maritime industries](https://spire.com/wp-content/uploads/2020/02/An-Ocean-of-Data-The-digital-Revolution.pdf)
+* Case study: [TTEK uses Spire to improve their aviation products](https://spire.com/case-study/aviation/powering-the-threat-matrix/)
+* Blog post: [As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
+* Blog post: [Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
 
 ### Datadog, an observability product 
 
-One of my first roles in the software space was writing blog posts for the observability company Datadog in 2015. Here's one example that is still live (the others seem to have been deleted): 
+One of my first writing roles in the software arena was in 2015, working on blog posts for the observability company Datadog. Here's one example that is still online (the others seem to have been deleted): 
 
 * A [ServiceNow integration blog post](https://www.datadoghq.com/blog/create-servicenow-tickets-from-datadog) 
 
