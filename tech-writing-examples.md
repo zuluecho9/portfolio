@@ -1,20 +1,26 @@
 # Tech writing examples
 
-For [my portfolio](https://github.com/zuluecho9/portfolio), these are examples from my tech writing career. 
+I'm Zach Elwood. For my [portfolio](readme.md), these are some project examples from my tech writing career. 
 
-During my 7.5 years at New Relic, an observability and full‑stack monitoring company with 700+ integrations, I worked on a wide range of highly technical documentation projects. My final role there was Lead Technical Writer (a role above Senior). The projects I worked on spanned multiple technologies, programming languages, types of APIs, and data models.
+# About my examples 
 
-> Note on aesthetics: The examples below currently lack the styling of the New Relic docs site where they were originally created. Where possible, I link to the public versions, which remain largely unchanged from when I wrote them.
+All of my examples come from my 7.5 years at New Relic. If you're not familiar with New Relic, it's a full-stack observability product that has more than 700 integrations with various application- and infrastructure-related frameworks, platforms, and services. The projects I worked on spanned multiple technologies, programming languages, cloud platforms, types of APIs, and data models. It was a great training ground for becoming comfortable with all aspects of application coding, infrastructure, deployment, and monitoring. My last title there was Lead Technical Writer, a role above Senior. For much of my time there, I was the go-to writer for the more complex, large, and important docs projects.  
 
-Overview of examples: 
+I also had a tech writing role in Amazon's Ads API department. My official title there was Programmer Writer, which reflected the role requiring strong programming/coding chops. Unfortunately I was only there four months before I was cut as part of widespread Amazon layoffs. My main project during that time was a substantial overhaul of an internal resource made for a large ecosystem of API builders and consumers, but unfortunately I can't share that publicly. 
 
-- [Implementation guide](#example-1-new-relic-implementation-guide) 
-- [Telemetry data concepts](#example-2-understanding-telemetry-data)  
-- [Pricing and billing](#example-3-pricingbilling-and-accountuser-model-updates)
-- [API overviews](#example-4-overview-of-new-relic-apis)
-- [Distributed tracing API](#example-5-distributed-tracing-api)  
-- [Query language](#example-6-querying-data-with-nrql)  
-- [Go language agent APIs](#example-7-go-language-monitoring-agent-apis)  
+I think it can be difficult to judge the quality of documentation unless one knows the domain well. Documentation can look pretty and neat, and be useless if it's inaccurate, or if it just isn't helpful to a given audience. And, on the flip side, documentation can be quite simple and unpretty and yet be hugely helpful to a given audience (e.g., a simple bulletpoint list that is highly focused on solving a specific audience's problems). While the example projects I've chosen are ones I'm proud of, I fear that their quality can be easy to miss if one doesn't know the domain well. If I'm applying for a job with you, I'd love a chance to walk you through the logic and reasoning that went into these projects, and why I'm proud of them. 
+
+> Note on visual aesthetics: The examples below currently lack the styling of the New Relic docs site where they were originally created. Where possible, I link to the public versions, which as of May 2026 remain largely unchanged from when I wrote them.
+
+Here are quick links to my project examples: 
+
+- [Example 1: A four-part implementation guide](#example-1-new-relic-implementation-guide) 
+- [Example 2: Telemetry data concepts](#example-2-understanding-telemetry-data)  
+- [Example 3: Pricing/billing changes](#example-3-pricingbilling-and-accountuser-model-updates)
+- [Example 4: An API overview](#example-4-overview-of-new-relic-apis)
+- [Example 5: Distributed tracing API](#example-5-distributed-tracing-api)  
+- [Example 6: New Relic's query language](#example-6-querying-data-with-nrql)  
+- [Example 7: Go language agent APIs](#example-7-go-language-monitoring-agent-apis)  
 
 ---
 
