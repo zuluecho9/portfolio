@@ -8,7 +8,7 @@ I think there is a lot bullshit in the tech writing thought-leadership space (an
 
 My fear of being perceived by others in the same way I've perceived some thought-leadership-writing people has made me hesitant to publicly write high-level thoughts on the craft. But being out of work has led me to try to gain some attention and communicate to employers my domain knowledge. You can rest assured that my thought leadership is aimed primarily at increasing my salary; I don't have interest in being perceived as exceptionally wise  in this space. That transparency might make it all more trustworthy, or maybe not.  
 
-![Thought Leader ship](thought-leader-ship.png)
+![Thought Leader ship](a-thought-leader-ship.png)
 
 # What makes documentation good? Are good docs hard or easy to create?
 
