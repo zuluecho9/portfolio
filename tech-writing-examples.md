@@ -2,7 +2,7 @@
 
 # Tech writing examples
 
-I'm Zach Elwood. For my [portfolio](readme.md), these are some project examples from my tech writing career. 
+I'm Zach Elwood. For my [portfolio](/portfolio/), these are some project examples from my tech writing career. 
 
 # About my examples 
 
