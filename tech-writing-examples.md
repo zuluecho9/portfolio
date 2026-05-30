@@ -51,7 +51,7 @@ The goal was to create clean, simple docs that would not confuse customers — e
 
 I was proud of the architecture and readability of the many docs I created and edited for this project. The work I did received many accolades from across the company. This is a performance review from my manager after that launch (known as Hercules): 
 
-*Thank you for an incredible launch. Honestly, I'm so damn grateful for you that I don't know where to start. Let's start with accounts: You are fearless. The accounts and pricing docs were a crowded billboard of ancient callouts, mysterious tables, purposeless paragraphs. As if that challenge wasn't great enough, we gave you black box of new features labeled only "Pricing and Accounts V2." It would've been easy to throw up your hands, or to just tack the new stuff on top of the old and call it good enough.*
+*Thank you for an incredible launch. Honestly, I'm so damn grateful for you that I don't know where to start. Let's start with accounts: You are fearless. The accounts and pricing docs were a crowded billboard of ancient callouts, mysterious tables, purposeless paragraphs. As if that challenge wasn't great enough, we gave you a black box of new features labeled only "Pricing and Accounts V2." It would've been easy to throw up your hands, or to just tack the new stuff on top of the old and call it good enough.*
 
 *But rather than do that, you dove in. You pushed PMs and leaders to clarify a cloudy vision. You articulated a whole new user journey for pricing, where our site can focus on helping users and marketing and product can handle the upsell details. You helped define the very name of the new pricing model. You earned you and docs a shoutout from the GM in the wrap-up session.*
 
