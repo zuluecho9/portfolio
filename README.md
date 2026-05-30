@@ -12,7 +12,7 @@ This is a portfolio for Zachary Elwood's writing- and communications-related wor
 
 ## About me
 
-My career has focused on communication but I see myself mostly as a problem solver. I figure out what success looks like for a project, and I work efficiently and creatively toward that goal. This explains my success in a wide range of communication-related endeavors. Some highlights from my career: 
+My career has focused on writing and communication but I think my main strengths are creative problem solving and intelligent project management. I figure out what success looks like for a project, and I work efficiently and creatively toward that goal. This explains my success in a wide range of communication-related endeavors. Some highlights from my career: 
 
 - I've held Senior, Lead, and other high-impact [technical writing](#tech-writing-examples) roles at cutting-edge, fast-moving tech companies, including New Relic and Amazon (Ads API department). 
 - I've created dozens of [content marketing](#content-marketing-examples) resources (white papers, case studies, blog posts, more) for tech companies (Datadog, Hydrolix, Spire Global, more).
