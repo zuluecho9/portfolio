@@ -76,9 +76,9 @@ Over the years, I’ve done a lot of freelance content marketing work for variou
 
 Content marketing examples:
 
-* [Hydrolix](#hydrolix-log-storage)
-* [Spire Global](#spire-satellite-data)
-* [Datadog](#datadog-an-observability-product) 
+* [Hydrolix](#hydrolix)
+* [Spire Global](#spire-global)
+* [Datadog](#datadog) 
 
 ### Hydrolix 
 
@@ -103,7 +103,7 @@ Here are a few of the resources I created for Spire:
 * Blog post: [As renewable energy grows, so does demand for weather data and analytics](https://spire.com/blog/weather-climate/as-renewable-energy-grows-so-does-demand-for-weather-data-and-analytics)
 * Blog post: [Top 5 reasons you should be using specialized agriculture weather forecasts](https://spire.com/blog/weather-climate/top-5-reasons-you-should-be-using-specialized-agriculture-weather-forecasts)
 
-### Datadog, an observability product 
+### Datadog
 
 One of my first writing roles in the software arena was in 2015, working on blog posts for the observability company Datadog. Here's one example that is still online (the others seem to have been deleted): 
 
