@@ -19,7 +19,7 @@ My career has focused on communication but I see myself mostly as a problem solv
 - As an instructional designer, I wrote, designed, and oversaw production of 100+ workforce training e-learning courses in industrial and manufacturing sectors.
 - I'm a former professional poker player whose books on poker tells have been translated into seven languages and sold 48K+ copies.
 - I host a psychology/behavior-focused podcast that gets 65K+ listens/views per month and has had 2.5M+ total listens/views. 
-- My independent investigative research has been [featured](#journalism-and-podcasting] in *The New York Times*, *The Washington Post*, *Buzzfeed*, and elsewhere. Investigative episodes of my podcast have received 100s of thousands of views/listens. 
+- My independent investigative research has been [featured](#journalism-and-podcasting) in *The New York Times*, *The Washington Post*, *Buzzfeed*, and elsewhere. Investigative episodes of my podcast have received 100s of thousands of views/listens. 
 - I've had op-eds published in Newsweek, The Hill, and other outlets, and I've ghostwritten op-eds published in major outlets.
 - Early in my career, I was a producer/director for regional cable TV commercials in Savannah, Georgia, and for online commercial videos in Portland, Oregon. 
 - My [respected work](https://www.american-anger.com/reviews) on toxic political polarization led to me being headhunted by a non-profit focused on that problem. For them, I wrote a weekly newsletter for a 150K+ subscriber list, wrote and reviewed content for a social media team with 3M+ followers, and came up with guidelines, strategies, and trainings for creating content on highly sensitive topics.
