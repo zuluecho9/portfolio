@@ -2,13 +2,13 @@
 
 # Tech writing examples
 
-I'm Zach Elwood. For my [portfolio](/portfolio), these are some project examples from my tech writing career. 
+I'm Zach Elwood. For my [portfolio](/portfolio), these are some work examples from my tech writing career. 
 
 # About my career and the examples chosen
 
 All of my examples come from my 7.5 years at New Relic. If you're not familiar with New Relic, it's a full-stack observability product that has more than 700 integrations with various application- and infrastructure-related frameworks, platforms, and services. The projects I worked on spanned multiple technologies, programming languages, cloud platforms, types of APIs, and data models. It was a great training ground for becoming comfortable with all aspects of application coding, infrastructure, deployment, and monitoring. 
 
-My last title at New Relic was Lead Technical Writer, a role above Senior. For much of my time there, I was the go-to writer for the more complex, large, and important docs projects. I was known for high quality and high productivity; for proof of that, you can see my [testimonials](portfolio/#featured-testimonials) and [my standing in their docs site GitHub commits](https://github.com/newrelic/docs-website/graphs/contributors?all=1).
+My last title at New Relic was Lead Technical Writer, a role above Senior. For much of my time there, I was the go-to writer for the more complex, large, and important docs projects. I was known for high quality and high productivity; for proof of that, you can see my [testimonials](/portfolio/#featured-testimonials) and [my standing in their docs site GitHub commits](https://github.com/newrelic/docs-website/graphs/contributors?all=1).
 
 I also had a tech writing role in Amazon's Ads API department. My official title there was Programmer Writer, which reflected the role requiring strong coding chops. Unfortunately I was only there for four months when the whole docs team was cut as part of widespread Amazon layoffs. My main project during that time was a substantial rework of an internal knowledge base for a large ecosystem of API builders and consumers, but I can't share that example publicly. 
 
