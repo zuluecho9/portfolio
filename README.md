@@ -73,7 +73,7 @@ For more testimonials, see [my LinkedIn](https://www.linkedin.com/in/zelwood/det
 
 My tech-writing related resources: 
 * [My tech writing portfolio](tech-writing-examples.md)
-* [Thought-leadership-esque thoughts on tech writing](tech-writing-thoughts.md)
+* [Extremely deep thoughts on docs](tech-writing-thoughts.md)
 * [Testimonials](#featured-testimonials)
 
 ## Content marketing
