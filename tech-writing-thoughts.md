@@ -2,16 +2,12 @@
 
 # Thoughts on docs 
 
-I'm Zach Elwood. As part of my [portfolio](/portfolio), these are some thoughts of mine on technical writing and documentation. 
-
-I think there is a lot bullshit in the tech writing thought-leadership space (and see that as a subset of the large amount of bullshit in thought leadership in general). I think there are some people who write a lot of deep- and complex-seeming words about the craft of technical writing without saying much that has practical value. I think there are some people who seem more focused on creating a perception of expertise than on helping others, and that will sometimes involve making the craft seem more complex than it is. And these factors are understandable because most thought-leadership-posting is I think an attempt to gain status [while not wanting to be perceived as status-seeking](https://behavior-podcast.com/cards-against-humanity-co-creator-david-pinsofs-theories-on-status-seeking-humor-and-more). And, again, these are just common aspects of "thought leadership" in general, not something specific to the tech writing space. And of course there is also some valuable and helpful thought leadership!
-
-My fear of being perceived by others in the same way I've perceived some thought-leadership-writing people has made me hesitant to publicly write high-level thoughts on the craft. But being out of work has led me to try to gain some attention and communicate to employers my domain knowledge. You can rest assured that my thought leadership is aimed primarily at increasing my salary; I don't have interest in being perceived as exceptionally wise  in this space. That transparency might make it all more trustworthy, or maybe not.  
+I'm Zach Elwood. As part of my [portfolio](/portfolio), these are some thoughts of mine on technical writing and documentation.  
 
 ![Thought Leader ship](a-thought-leader-ship.png)
 *A boat I saw the other day.*
 
-# What makes documentation good? Are good docs hard or easy to create?
+## What makes documentation good? Are good docs hard or easy to create?
 
 In general, I think strong, effective instructional communication is sometimes surprisingly easy to create, and sometimes surprisingly difficult to create. This fact I think helps explain the multitude of perspectives on it, with some non-technical-writers thinking "I can do that; it's not that hard," and some technical writers thinking "It takes a specialist to do this well." Both takes can be accurate, depending on the situation and specific project. It also helps us understand different and opposed takes on how AI tools are impacting these jobs. 
 
