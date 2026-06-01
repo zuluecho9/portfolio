@@ -4,7 +4,7 @@
 
 I'm Zach Elwood. For my [portfolio](/portfolio), these are some work examples from my tech writing career. 
 
-# About my career and the examples chosen
+## About my career and the examples chosen
 
 All of my examples below come from my 7.5 years at New Relic, which is a full-stack observability platform with more than 700 integrations with various application and infrastructure frameworks, platforms, and services. The projects I worked on spanned multiple technologies, programming languages, cloud platforms, types of APIs, and data models. New Relic was a fantastic training ground for becoming comfortable with all aspects of application coding, infrastructure, deployment, and monitoring. 
 
@@ -29,7 +29,7 @@ Here are quick links to my project examples:
 
 ---
 
-# Example #1: Docs team playbooks, templates, and style guide work
+## Example #1: Docs team playbooks, templates, and style guide work
 
 As a Senior and Lead Tech Writer at New Relic, one area of my responsibility was creating processes and procedures to help the docs team, which had 12 writers at its height, consistently put out high-quality documentation. I was a major and frequent contributor to our public [style guide](https://github.com/newrelic/docs-website/tree/develop/src/content/docs/style-guide) and our internal playbooks and templates. Here are just a few of the many resources I created for our docs team:  
 
@@ -41,7 +41,7 @@ As a Senior and Lead Tech Writer at New Relic, one area of my responsibility was
 
 > A note about my GitHub commits for these: I wrote all resources mentioned but only some of them show my GitHub commits. This is because I wrote some of them before mid-2020, when the docs site was moved to GitHub.
 
-# Example #2: Pricing/billing model overhaul
+## Example #2: Pricing/billing model overhaul
 
 This project was probably my most important accomplishment during my time at New Relic: overhauling the docs to reflect substantial changes to the pricing model and the account/user model. These were core changes to the platform that impacted many aspects of the customer experience; these changes impacted hundreds of docs. They were also touchy and sensitive changes. Customers can be easily frustrated when there is confusion over how their billing works, or how to manage/provision users (which affects cost). 
 
@@ -59,7 +59,8 @@ I was proud of the architecture and readability of the many docs I created and e
 
 Here’s a sample from the pricing overview doc (this comes from a [2021 version of the pricing doc](https://web.archive.org/web/20210128094340/https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing)): 
 
-## Sample section 
+---
+*EXAMPLE SECTION*
 
 ### New Relic pricing 
 
@@ -107,6 +108,7 @@ Here are the steps:
 
 For accounts on New Relic One pricing, some high-level billing information is displayed [in the UI](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/#billing-usage-ui). Here are some more details about how billing works:
 
+*END EXAMPLE SECTION*
 ---
 
 **READ MORE:**  
@@ -114,13 +116,14 @@ To read more of this pricing overview doc, see [this 2021 version of the doc](ht
 
 ---
 
-# Example #3: New Relic implementation guide
+## Example #3: New Relic implementation guide
 
 For one of my final large projects at New Relic, I created a comprehensive four-part implementation guide to help new customers set up the platform efficiently and start getting value quickly. This was challenging due to the sheer number of New Relic features and the wide range of customer sizes and architectures, which made it difficult to define a single setup path that worked for everyone. That complexity was a key reason such a guide had never been created before despite being a long-standing gap.
 
 This project brought together everything I’d learned about observability and the New Relic platform. It required extensive collaboration with solutions architects, support, and other customer success personnel, as well as careful judgment to synthesize differing stakeholder views into a simple yet highly useful guide. 
 
-#### Sample section
+---
+*EXAMPLE SECTION*
 
 ## Implementation part 1: Plan and set up your account
 
@@ -173,19 +176,22 @@ Here are some things to consider when adding team leads:
 
 We recommend using a spreadsheet to plan out your users' New Relic responsibilities.
 
+*END EXAMPLE SECTION*
+
 ---
 
 **READ MORE:** The implementation guide is largely unchanged from when I wrote it in 2023. [Read the rest of the doc here](https://docs.newrelic.com/docs/new-relic-solutions/get-started/implementation-guide-planning-setup). 
 
 ---
 
-# Example #4: Understanding telemetry data
+## Example #4: Understanding telemetry data
 
 Despite New Relic being a data-centric company, several years into their existence they still had no public doc explaining the various types of telemetry data they collected (metrics, events, logs, traces) or how that data was handled by the platform. It had been in the docs backlog for years to create such a doc but, surprisingly, it had never been done. Based on my own frustrations trying to understand these areas, as someone new to the observability space, and based on seeing a lot of customer confusion, I made the case that I should work on this much-needed doc.
 
 I researched this by talking with many SMEs across the company, trying to piece together the intricacies of how the industry generally used these words and how we at New Relic were using these words. I was very proud of this doc and it ended up being one of the most high-traffic docs on the site. One reason for this is that it was useful even to non-New Relic customers in understanding how these terms were being used in the monitoring space.
 
-#### Sample section
+---
+*EXAMPLE SECTION*
 
 ## New Relic data types
 
@@ -245,13 +251,15 @@ Some of our other metric data types are exposed as dimensional metrics and are a
 * [APM metric timeslice data](https://docs.newrelic.com/docs/data-apis/understand-data/metric-data/query-apm-metric-timeslice-data-nrql)
 * [Some infrastructure data](https://docs.newrelic.com/docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/query-infrastructure-dimensional-metrics-nrql)
 
+*END EXAMPLE SECTION*
+
 ---
 
 **READ MORE:** This doc is largely unchanged from when I wrote it in 2018. [Read the rest of the doc here](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types). 
 
 ---
 
-# Example #5: Overview of New Relic APIs
+## Example #5: Overview of New Relic APIs
 
 By the time I became Senior Tech Writer at New Relic, I was the go-to person for docs pertaining to the company’s core APIs and their data model. This was largely due to the time I’d spent working through the intricacies of how New Relic handled data and how different teams used data terminology.
 
@@ -260,7 +268,8 @@ configurations — but in the meantime it was rather rudimentary in features and
 
 Here’s an excerpt from my API overview doc:
 
-### Sample section
+---
+*EXAMPLE SECTION*
 
 ## Introduction to New Relic APIs
 
@@ -282,17 +291,20 @@ Our data ingest APIs are some of our [many solutions for reporting data](https:/
 | [Log API](https://docs.newrelic.com/docs/enable-new-relic-logs-http-input) | Send [log data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#log-data) to New Relic. |
 | [Trace API](https://docs.newrelic.com/docs/apm/distributed-tracing/trace-api/introduction-new-relic-trace-api) | Send [distributed tracing data](https://docs.newrelic.com/docs/data-apis/understand-data/new-relic-data-types/#trace-data) (`Span` data) to New Relic without the use of an agent or integration. |
 
+*END EXAMPLE SECTION*
+
 ---
 
 **READ MORE**: This doc is largely unchanged from when I wrote it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/apis/intro-apis/introduction-new-relic-apis/).
 
 ---
 
-# Example #6: Distributed tracing API
+## Example #6: Distributed tracing API
 
 One of my earlier large projects at New Relic was being embedded with a product team as they rolled out their distributed tracing feature. This was considered a highly important feature, as distributed tracing was big at that time in the monitoring/observability space. I documented a new UI, new types of data and querying, and new APIs. The docs were a success; one sign of this was that the docs had significantly higher CSAT (customer satisfaction) scores than average.
 
-### Sample section 
+---
+*EXAMPLE SECTION* 
 
 ## Report traces via the Trace API (New Relic format)
 
@@ -365,13 +377,15 @@ The following explains how to send a standard (non-[Infinite Tracing](https://do
 
 >     Traces may take up to one minute to be processed by both the trace observer and the Trace API.
 
+*END EXAMPLE SECTION*
+
 ---
 
 **READ MORE**: This doc is largely unchanged from when I wrote it in 2017. [Read the rest of the doc here](https://docs.newrelic.com/docs/distributed-tracing/trace-api/report-new-relic-format-traces-trace-api).
 
 ---
 
-# Example #7: Querying data with NRQL
+## Example #7: Querying data with NRQL
 
 One project of mine was to improve the New Relic query language (NRQL) docs. NRQL was a SQL-like query language customers could use to query their observability data via the UI or via an API. When I started, the NRQL docs were hard to get started with: they didn’t do a good job explaining at a high level why you’d want to use NRQL, what the major use cases were, and how to quickly get started with it. I created a doc that would make people feel comfortable getting started and that would hopefully provide some value quickly.
 
@@ -379,7 +393,8 @@ In the introductory doc, my goal was to explain: a) common use cases, b) where y
 
 Here’s an excerpt from that doc:  
 
-### Sample section
+---
+*EXAMPLE SECTION*
 
 ## What is NRQL?
 NRQL is an acronym of New Relic query language. It's a query language similar to ANSI SQL (see the syntax), and you can use it to retrieve detailed New Relic data to get insight into your applications, hosts, and business-important activity. NRQL can help you:
@@ -400,20 +415,23 @@ You can use NRQL across the platform to access your data. Those places include:
 
 * NerdGraph API. [screenshot of the Nerdgraph API] You can also use NRQL with our NerdGraph API. This gives you more powerful features than querying in the UI (for example, cross-account querying, and asynchronous queries).
 
+*END EXAMPLE SECTION*
+
 ---
 
 **READ MORE**: This doc is largely unchanged from when I edited it in 2019. [Read the rest of the doc here](https://docs.newrelic.com/docs/nrql/get-started/introduction-nrql-new-relics-query-language).
 
 ---
 
-# Example #8: Go language monitoring agent APIs
+## Example #8: Go language monitoring agent APIs
 
 New Relic’s core feature is application performance monitoring (APM). This was handled by installable agents available for several coding languages (Go, Ruby, Java, .NET, Python, PHP, Node.js). I worked on all of these docs over the years, with a special focus on Go, .NET, and Python. Work in these areas included documenting installation, configuration, data explanations, common use cases, and code snippets. 
 
 One of my early assignments was writing the Go language agent docs, which was the first language agent they’d added in years (and ended up being their last). Each language agent had their own library of APIs that allowed customers to customize the agent, to get it to work how they wanted it to work. 
 Here’s a sample from one of the Go agent APIs: 
 
-## Sample section
+---
+*EXAMPLE SECTION*
 
 ## Guide to using the Go agent API
 
@@ -445,6 +463,8 @@ To instrument a method within an existing transaction, create segments for the f
 * [External services](https://docs.newrelic.com/docs/agents/go-agent/get-started/instrument-go-segments#go-external-segments)
 
 If the work is happening in a different goroutine from where the transaction started, you must use the [`NewGoroutine()`](/docs/agents/go-agent/features/tracing-asynchronous-applications) API.
+
+*END EXAMPLE SECTION* 
 
 ---
 
