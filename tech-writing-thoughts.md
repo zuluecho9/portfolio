@@ -25,7 +25,7 @@ I think these are important points as they help us see what really matters in do
 
 🎵 I've looked at documentation from both sides now. 🎵 
 
-# Other "thought leadership"
+## Other "thought leadership"
 
 Some writings: 
 * [Idea for measuring docs success using tech-support tags and tracking](https://www.linkedin.com/posts/zelwood_there-is-no-great-method-for-measuring-the-activity-7460694978927968257-VDnQ) 
