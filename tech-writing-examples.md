@@ -476,7 +476,7 @@ If the work is happening in a different goroutine from where the transaction sta
 
 ## Example #9: Instructional video 
 
-Sometimes video and images are much better instructional tools than written documentation. [See an example of an instructional video I made for New Relic](/portfolio#instructiona-videos).
+Sometimes video and images are much better instructional tools than written documentation. [See an example of an instructional video I made for New Relic](/portfolio#instructional-videos).
 
 ## More samples
 
