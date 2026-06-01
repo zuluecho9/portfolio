@@ -25,7 +25,8 @@ Here are quick links to my project examples:
 - [Example 5: An API overview](#example-5-overview-of-new-relic-apis)
 - [Example 6: Distributed tracing API](#example-6-distributed-tracing-api)  
 - [Example 7: New Relic's query language](#example-7-querying-data-with-nrql)  
-- [Example 8: Go language agent APIs](#example-8-go-language-monitoring-agent-apis)  
+- [Example 8: Go language agent APIs](#example-8-go-language-monitoring-agent-apis)
+- [Example 9: Instructional video](#example-9-instructional-video)
 
 ---
 
@@ -473,7 +474,11 @@ If the work is happening in a different goroutine from where the transaction sta
 
 ---
 
-# More samples
+## Example #9: Instructional video 
+
+Sometimes video and images are much better instructional tools than written documentation. [See an example of an instructional video I made for New Relic](/portfolio#instructiona-videos).
+
+## More samples
 
 If you’d like to see more writing samples, let me know. I have many more I could share. 
 
