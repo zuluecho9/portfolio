@@ -109,6 +109,7 @@ Here are the steps:
 For accounts on New Relic One pricing, some high-level billing information is displayed [in the UI](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing/#billing-usage-ui). Here are some more details about how billing works:
 
 *END EXAMPLE SECTION*
+
 ---
 
 **READ MORE:**  
