@@ -78,13 +78,14 @@ My tech-writing related resources:
 
 ## Content marketing
 
-Over the years, I’ve done a good amount of freelance content marketing work for tech companies. This work has included blog posts, white papers, case studies, website copy projects, and more. I think I excel at crafting technical marketing content that is perceived by a savvy, discerning audience as genuinely knowledgable and helpful, and not overtly promotional. 
+Over the years, I’ve done a good amount of freelance content marketing work for tech companies. This work has included blog posts, white papers, case studies, website copy projects, and more. I think I excel at crafting technical marketing content that is perceived by a savvy, discerning audience as knowledgable and helpful, and not overtly promotional. 
 
 Content marketing examples:
 
 * [Hydrolix](#hydrolix)
 * [Spire Global](#spire-global)
-* [Datadog](#datadog) 
+* [Datadog](#datadog)
+* [New Relic](#new-relic)
 
 ### Hydrolix 
 
@@ -113,7 +114,14 @@ Here are a few of the resources I created for Spire:
 
 One of my first writing roles in the software arena was in 2015, working on blog posts for the observability company Datadog. Here's one example that is still online (the others seem to have been deleted): 
 
-* A [ServiceNow integration blog post](https://www.datadoghq.com/blog/create-servicenow-tickets-from-datadog) 
+* A [ServiceNow integration blog post](https://www.datadoghq.com/blog/create-servicenow-tickets-from-datadog)
+
+### New Relic
+
+I was a Lead Technical Writer at the full-stack observability company New Relic. I think that all documentation (and all communication, really) plays a valuable marketing role. When you clearly explain a product/service, and clearly show how it can be valuable, that will naturally make that product/service more appealing to potential customers. I'll highlight a couple New Relic projects that had a significant marketing aspect: 
+
+* [Understanding your telemetry data](tech-writing-examples.md#example-3-new-relic-implementation-guide)
+* [An implementation guide](tech-writing-examples.md#example-3-new-relic-implementation-guide), explaining how to set up New Relic
 
 ## Instructional videos
 
