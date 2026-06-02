@@ -118,7 +118,7 @@ One of my first writing roles in the software arena was in 2015, working on blog
 
 ### New Relic
 
-I was a Lead Technical Writer at the full-stack observability company New Relic. I think that all documentation (and all communication, really) plays a valuable marketing role. When you clearly explain a product/service, and clearly show how it can be valuable, that will naturally make that product/service more appealing to potential customers. I'll highlight a couple New Relic projects that had a significant marketing aspect: 
+I was a Lead Technical Writer at the full-stack observability company New Relic. I think that all documentation (and all communication, really) can play a valuable marketing role. When you clearly explain a product/service, and clearly show how it can be valuable, that will naturally make that product/service more appealing to potential customers. I'll highlight a couple New Relic projects that had a significant marketing aspect: 
 
 * [Understanding your telemetry data](tech-writing-examples.md#example-3-new-relic-implementation-guide)
 * [An implementation guide](tech-writing-examples.md#example-3-new-relic-implementation-guide), explaining how to set up New Relic
